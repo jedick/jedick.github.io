@@ -55,12 +55,13 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-analytics
 
-jekyll_analytics:
-  Matomo:
-    url: https://chnosz.net/analytics
-    siteId: "5"
+# Analytics
+analytics:
+  provider: "matomo"
+  matomo:
+    site_id: "5"
+    url: "https://chnosz.net/analytics"
 
 author:
   name   : "Jeffrey Dick"
