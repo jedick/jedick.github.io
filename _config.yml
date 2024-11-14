@@ -55,6 +55,12 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-analytics
+
+jekyll_analytics:
+  Matomo:
+    url: https://chnosz.net/analytics
+    siteId: "5"
 
 author:
   name   : "Jeffrey Dick"
@@ -65,9 +71,9 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jedick"
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jeffrey-m-dick/"
-    - label: "Website"
+    - label: "Research Page"
       icon: "fas fa-fw fa-link"
       url: "https://chnosz.net/jeff"
     - label: "Google Scholar"

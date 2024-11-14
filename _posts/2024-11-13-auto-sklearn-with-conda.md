@@ -41,11 +41,11 @@ conda install conda-forge::auto-sklearn
 That's it!
 
 Note that I **did not** run `conda install python` because that installs the latest Python,
-and I did't want to spend time figuring out what version of Python is compatible with AutoSklearn from 2022.
-That single `conda install` command automaticaly figured out that it needs python-3.9.20, among lots of other dependencies.
+and I didn't want to spend time figuring out what version of Python is compatible with AutoSklearn from 2022.
+That single `conda install` command automatically figured out that it needs python-3.9.20, among lots of other dependencies.
 I think that's a good example of robust dependency resolution!
 
-And yes, I ran the AutoSklearn example at Machine Learning Mastery and got some nice results.
+And yes, I ran the AutoSklearn example from Machine Learning Mastery and got some nice results.
 
 ```
 >>> print(model.sprint_statistics())
