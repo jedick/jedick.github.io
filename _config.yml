@@ -57,11 +57,8 @@ plugins:
   - jekyll-include-cache
 
 # Analytics
-analytics:
-  provider: "matomo"
-  matomo:
-    site_id: "5"
-    url: "https://chnosz.net/analytics"
+head_scripts:
+  - /assets/js/matomo.js
 
 author:
   name   : "Jeffrey Dick"
