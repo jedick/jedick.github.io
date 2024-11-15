@@ -21,6 +21,7 @@ twitter_username:
 github_username: jedick
 minimal_mistakes_skin: default
 search: true
+locale: en-US
 
 # Build settings
 markdown: kramdown
