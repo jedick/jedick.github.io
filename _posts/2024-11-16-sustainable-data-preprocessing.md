@@ -8,9 +8,10 @@ categories:
 tags:
   - Machine Learning
   - Data
+classes: wide
 ---
 
-Early in my exploration of *Titanic* dataset (a kind of “Hello World” for machine learning), I was overwhelmed by the variety - or inconsistency - of methods for preprocessing data.
+Early in my modeling of the *Titanic* dataset (a kind of “Hello World” for machine learning), I was struck by the variety - or inconsistency - of data preprocessing methods.
 For instance, the [Titanic Tutorial on Kaggle](https://www.kaggle.com/code/alexisbcook/titanic-tutorial) uses `pd.get_dummies()` to convert categorical column to numeric values, and there are many examples of more complex feature engineering methods on this dataset, e.g. [here](https://github.com/murilogustineli/Titanic-Classification/blob/main/Titanic%20Project.ipynb) and [here](https://www.kaggle.com/code/imoore/titanic-the-only-notebook-you-need-to-see).
 The problem is that various functions or methods act on DataFrame columns to create temporary variables, and columns are added, dropped or retained, all at different locations in the code.
 This approach encourages the growth of spaghetti code rather than the Pythonic ideal of readable, self-documenting code.
@@ -152,10 +153,10 @@ X_train.head()
 Now let's do the same thing with functions from scikit-learn.
 This adds a bit of up-front overhead, but when we start adding more processing steps it will become a cleaner codebase.
 
-This instantiates `ColumnTransformer` instance then fits to the training data and perform the operations with the `.fit_transform()` method.
+This instantiates `ColumnTransformer()` instance then fits to the training data and perform the operations with the `.fit_transform()` method.
 If we were to process the test data now, we would use the `.transform()` method, ensuring no data leakage.
 For nicer display of the results, the call to `.set_output()` is used to output a pandas DataFrame (see [this StackOverflow post](https://stackoverflow.com/questions/70933014/how-to-use-columntransformer-to-return-a-dataframe)).
-Because pandas output does not support sparse data, this also requires `sparse_output=False` to be passed to `OneHotEncoder()`.
+Because pandas output does not support sparse data, this also requires *sparse_output=False* to be passed to `OneHotEncoder()`.
 
 
 ```python
@@ -251,13 +252,13 @@ Here we standardize numerical variables (**Age** and **Fare**) before adding the
 We also add a couple more categorical variables (**Pclass** and **Embarked**).
 
 Because we to deal with NA values, multiple preprocessing steps are needed.
-In the first step `verbose_feature_names_out=False` prevents prefixing column names with the names of the transformers, so that the original columns names are passed to the next step.
-Also, `remainder='passthrough'` is required to keep all the features around for the next step.
+In the first step *verbose_feature_names_out=False* prevents prefixing column names with the names of the transformers, so that the original columns names are passed to the next step.
+Also, *remainder='passthrough'* is required to keep all the features around for the next step.
 
-Here we use `make_column_transformer` as a convenience function that doesn't require explicit names for column prefixes.
+Here we use `make_column_transformer()` as a convenience function that doesn't require explicit names for column prefixes.
 The order of arguments within each transformer is modified from [Joris Van den Bossche's blog](https://jorisvandenbossche.github.io/blog/2018/05/28/scikit-learn-columntransformer/) for compatibility with the current version of scikit-learn (1.5.2 at the time this notebook was written).
 
-The `KBinsDiscretizer()` transformer is used to bin the `Fare` values and is a replacement for the pandas `qcut` function.
+The `KBinsDiscretizer()` transformer is used to bin the **Fare** values and is a replacement for the pandas `qcut()` function.
 
 
 ```python
@@ -312,9 +313,9 @@ X_train.iloc[:, 2:].sum()
 
 Already in the last block there is a problem growing. We had to fit and transform multiple times. With this there's a growing possibility of accidentally copy-pasting `.fit_transform()` to the test data. To prevent data leakage, only `.transform()` should be used on the test data. Enter pipelines. They encapsulate a sequence of any number of transformations as well as an estimator for classification or regression. Besides adding a level of safety against using test samples for training, pipelines offer the ability to perform grid search on the parameters of the transformations.
 
-Let's see the previous precprocessing steps set up in a pipeline. For simplicity, this example uses `make_pipeline`; just as with `make_column_transformer` used above, this avoids the need to give names to each transformation step. Also, we're stripping out all but the essential non-default parameter values; `strategy='most_frequent'` gets `SimpleImputer()` to work on non-numeric data.
+Let's see the previous precprocessing steps set up in a pipeline. For simplicity, this example uses `make_pipeline()`; just as with `make_column_transformer()` used above, this avoids the need to give names to each transformation step. Also, we're stripping out all but the essential non-default parameter values; *strategy='most_frequent'* gets `SimpleImputer()` to work on non-numeric data.
 
-Notice how the list of features is implicitly coded in the pipeline itself. There's no compelling reason now to subset the features from the data before running the pipeline. And with more confidence in using the transformers, pandas output is not needed for inspecting the output, so we take out the `.set_output(transform='pandas')` and `sparse_output=False` settings.
+Notice how the list of features is implicitly coded in the pipeline itself. There's no compelling reason now to subset the features from the data before running the pipeline. And with more confidence in using the transformers, pandas output is not needed for inspecting the output, so we take out the *transform='pandas'* and *sparse_output=False* settings.
 
 
 ```python
@@ -804,7 +805,7 @@ For example, family size computed from the **SibSp** and **Parch** columns in th
 We add this step to the pipeline by writing our own function and wrapping it in `FunctionTransformation()`.
 
 The new transformation works on entire DataFrames rather than single columns, so is is placed *before* `make_column_transformer()` in the pipeline.
-The column transformer then mentions the newly created columns, in this case simply to pass the family size through to the output.
+The column transformer then mentions the newly created columns, in this case simply to pass **FamilySize** through to the output.
 
 
 ```python
@@ -1326,13 +1327,14 @@ Let's wrap it all up with a pipeline that combines preprocessing and estimation.
 
 We do a little more feature engineering to create new features (**Title**  and **Deck**) from **Name** and **Cabin**, respectively.
 These steps are added to the front of the pipeline and the new features are one-hot encoded in the column transformer.
-Because of NA values in Cabin, another `SimpleImputer()` is added.
+Because of NA values in **Cabin**, another `SimpleImputer()` is added.
 While we're at it, let's add an option to take the logarithm of the new **FamilySize** column.
 
-Next, we append an estimator to the pipeline, in this case Random Forest, and up a grid search over some of the preprocessing parameters.
-This pipeline is initialized with empty steps (None) in place of transformers for **Age** and **Fare**.
-The grid search is used to decide whether applying `StandardScaler()` or `KBinsDiscretizer()` to these variables improves the model.
-We also investigate the effect of the `drop` and `max_categories` arguments of `OneHotEncoder()` and the strategy (mean or median) for `SimpleImputer()`.
+Next, we append an estimator to the pipeline, in this case Random Forest, and then set up a grid search over some of the preprocessing parameters.
+This pipeline is initialized with empty processing steps (None) in place of transformers for **Age** and **Fare**.
+The grid search is used to decide whether using `StandardScaler()` or `KBinsDiscretizer()` (or nothing) on these variables improves the model.
+We also investigate the effect of the *drop* and *max_categories* arguments of `OneHotEncoder()` and the *strategy* (mean or median) for `SimpleImputer()`.
+The argument name that ends with *kw_args* is how we pass parameters from the grid search to our custom function, `AddFamilySize()`.
 
 *The code block below does not depend on the previous blocks, so you can copy it to start a new notebook!*
 
@@ -1499,4 +1501,4 @@ If you want to make predictions on the test set for a submission to Kaggle, just
 # print("Your submission was successfully saved!")
 ```
 
-Try it out and see how pipelines make your data preprocessing easier to build and maintain!
+Try it out and see how pipelines make your data preprocessing more powerful and easier to maintain!
