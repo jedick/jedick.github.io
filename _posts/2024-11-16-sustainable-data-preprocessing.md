@@ -1,7 +1,7 @@
 ---
 layout: notebook
 filename: "2024-11-16-sustainable-data-preprocessing.ipynb"
-title: "Sustainable Data Preprocessing with Pipelines"
+title: "Sustainable data preprocessing with pipelines"
 date: 2024-11-16T12:04:24+08:00
 categories:
   - Blog
