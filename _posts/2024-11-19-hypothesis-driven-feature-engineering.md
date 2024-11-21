@@ -6,7 +6,7 @@ date: 2024-11-19T19:17:47+08:00
 categories:
   - Blog
 tags:
-  - Feature engineering
+  - Feature Engineering
   - Genomics
 classes: wide
 ---
@@ -14,7 +14,7 @@ classes: wide
 I'm starting a machine learning project to use microbial communities as biosensors for redox potential.
 Why is this important?
 Well, redox potential (written as Eh or ORP) reflects the tendency for chemical species to be oxidized or reduced; that is, to lose or gain electrons.
-Eh measurements using redox probes are useful for characterizing [*differences between samples*](https://doi.org/10.1071/EN17158), even if they can't be used to quantify chemical species because of non-equilibrium effects.
+Eh measurements using redox probes are useful for characterizing [differences between samples](https://doi.org/10.1071/EN17158), even if they can't be used to quantify chemical species because of non-equilibrium effects.
 Moreover, redox gradients are basic features of many microbial habitats and play a role in determining what kinds of metabolism are used and how communities react to environmental perturbations, such as [soil disinfestation](https://doi.org/10.1007/s00248-019-01477-6).
 
 Redox potential is not always measured or reported in microbial ecology studies.
