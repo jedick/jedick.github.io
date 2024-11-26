@@ -1,8 +1,8 @@
 ---
 permalink: /
-title: "Portfolio shapshot"
 ---
 
+<h1>Portfolio snapshot</h1>
 
 ### Technical achievements
 - Author of three packages on CRAN: [CHNOSZ](https://doi.org/https://doi.org/10.32614/CRAN.package.CHNOSZ), [canprot](https://doi.org/10.32614/CRAN.package.canprot), and [chem16S](https://doi.org/10.32614/CRAN.package.chem16S)

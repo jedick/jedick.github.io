@@ -6,9 +6,7 @@ layout: archive
 
 <!-- Layout based on minimal-mistakes/_layouts/home.html to show recent posts instead of year archive 20241126 jmd -->
 
-<!--
-  <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
--->
+<h1 class="page__title">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h1>
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
