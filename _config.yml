@@ -64,7 +64,7 @@ head_scripts:
 author:
   name   : "Jeffrey Dick"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Data Scientist and Machine Learning Engineer"
+  bio    : "Machine Learning Engineer"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
