@@ -10,7 +10,7 @@ tags:
 ---
 
 Transfer learning take layers of an existing neural network previously trained on a (usually large) dataset.
-These layers are the starting point to build a new model that you then train on your own (usually smaller) dataset.
+These layers are the starting point to build a new model that is then trained on your own (usually smaller) dataset.
 This allows features learned from the large dataset to *transfer* and help with the learning task on new data.
 
 Let's use the VGG16 image classification model to start building a transfer learning model in TensforFlow.
