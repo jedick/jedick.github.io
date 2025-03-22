@@ -81,10 +81,9 @@ While accuracy became my primary metric for later experiments, tracking class-sp
 - **AUROC** (area under the receiver operating characteristic curve). From the [torchmetrics docs](https://lightning.ai/docs/torchmetrics/stable/classification/auroc.html): "The AUROC score summarizes the ROC curve into an single number that describes the performance of a model for multiple thresholds at the same time". The AUROC score ranges from 0.5 for random guessing to 1 for perfect classification.
 
 
-## Code samples
+## The Code
 
 ### Longformer (MultiVerS)
-
 
 Predictions were made using the MultiVerS model with Longformer.
 These scripts use the `eval` Python module and model predictions available in the RefSup repository at <https://github.com/jedick/RefSup>.
