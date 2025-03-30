@@ -86,7 +86,7 @@ While accuracy became my primary metric for later experiments, tracking class-sp
 ### Longformer (MultiVerS)
 
 Predictions were made using the MultiVerS model with Longformer.
-These scripts use the `eval` Python module and model predictions available in the RefSup repository at <https://github.com/jedick/RefSup>.
+These scripts use the `eval` Python module and model predictions available in the AI4citations repository at <https://github.com/jedick/AI4citations>.
 
 Several sets of predictions are available with different pretraining and fine tuning configurations:
 

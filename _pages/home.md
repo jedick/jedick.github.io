@@ -6,7 +6,7 @@ permalink: /
 
 ### Technical achievements
 - Author of three packages on CRAN: [CHNOSZ](https://doi.org/https://doi.org/10.32614/CRAN.package.CHNOSZ), [canprot](https://doi.org/10.32614/CRAN.package.canprot), and [chem16S](https://doi.org/10.32614/CRAN.package.chem16S)
-- Repositories for ML projects available on GitHub at [orpML](https://github.com/jedick/orpML) and [readycite](https://github.com/jedick/readycite)
+- Repositories for ML projects available on GitHub at [orpML](https://github.com/jedick/orpML) and [AI4citations](https://github.com/jedick/AI4citations)
 - Website with documentation and examples for my R packages: [chnosz.net](https://chnosz.net/)
 
 ### Research engagement

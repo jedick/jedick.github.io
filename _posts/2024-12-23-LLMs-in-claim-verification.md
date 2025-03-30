@@ -78,7 +78,7 @@ by other studies.
 
 It's clear that LLMs are poised to make a huge impact to scientific claim
 verification with downstream effects for biomedical studies but also
-publishers. I'm working on a project, [ReadyCite](https://github.com/jedick/ReadyCite?trk=public_post_comment-text),
+publishers. I'm working on a project, [AI4citations](https://github.com/jedick/AI4citations?trk=public_post_comment-text),
 to automate claim verification of citations, starting with training using transformers but
 actively looking for improvements by leveraging LLMs through prompt design,
 agental systems. Feel free to comment if you have any additions to this list
