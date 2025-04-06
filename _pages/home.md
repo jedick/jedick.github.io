@@ -19,7 +19,7 @@ feature_row:
   - image_path: /assets/siteimages/CHNOSZ_banner.png
     title: "Software Engineering"
     excerpt: "
-        My software engineering journey started with the **CHNOSZ** R package for thermodynamic calculations and visualization.
+        My software engineering journey started with the **CHNOSZ** R package for thermodynamic calculations and diagrams.
         I have maintained this package [on CRAN](https://cran.r-project.org/package=CHNOSZ) since 2009 and it is used by [100+](https://scholar.google.com/scholar?cites=18385152422710735148&as_sdt=2005&sciodt=0,5&hl=en) [research groups](https://scholar.google.com/scholar?cites=8675465244739999021&as_sdt=2005&sciodt=0,5&hl=en) around the world.
         One of the reasons for its success is *data quality* ([blog post](blog/thermodynamic-data-consistency-Li-mica/)) as much as the computational and visualization features.
    "
@@ -35,7 +35,7 @@ feature_row:
         This result is a state-of-the art system that helps writers and editors verify quotation accuracy in scientific publications.
     "
     url: "https://github.com/jedick/AI4citations"
-    btn_label: "AI4citations GitHub"
+    btn_label: "AI4citations repository"
     btn_class: "btn--primary"
   - image_path: /assets/siteimages/pyvers_banner.png
     title: "ML Engineering"
@@ -45,24 +45,8 @@ feature_row:
         (*Credit for citation example: [Sarol et al., 2024](https://doi.org/10.1093/bioinformatics/btae420).*)
     "
     url: "https://github.com/jedick/pyvers"
-    btn_label: "pyvers GitHub"
+    btn_label: "pyvers repository"
     btn_class: "btn--primary"
-
-row2:
-  - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
 
 {% include feature_row id="intro" type="center" %}

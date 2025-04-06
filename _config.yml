@@ -78,6 +78,9 @@ author:
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?user=iLvwus8AAAAJ"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:j3ffdick@gmail.com"
 
 #footer:
 #  links:
