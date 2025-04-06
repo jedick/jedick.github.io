@@ -28,7 +28,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 3 # amount of posts to show
+paginate: 5 # amount of posts to show
 paginate_path: /posts/page:num/
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: CN
@@ -63,7 +63,7 @@ head_scripts:
 
 author:
   name   : "Jeffrey Dick"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/siteimages/bio-photo.jpg"
   bio    : "Machine Learning Engineer<br>Research Software Engineer"
   links:
     - label: "GitHub"
