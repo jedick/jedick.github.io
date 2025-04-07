@@ -66,21 +66,15 @@ author:
   avatar : "/assets/siteimages/bio-photo.jpg"
   bio    : "Machine Learning Engineer<br>Research Software Engineer"
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/jedick"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jeffrey-m-dick/"
-    - label: "Research Page"
-      icon: "fas fa-fw fa-link"
-      url: "https://chnosz.net/jeff"
-    - label: "Google Scholar"
-      icon: "fab fa-fw fa-google-scholar"
-      url: "https://scholar.google.com/citations?user=iLvwus8AAAAJ"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:j3ffdick@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jeffrey-m-dick/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jedick"
 
 #footer:
 #  links:

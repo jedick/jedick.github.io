@@ -8,8 +8,8 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/siteimages/splash_banner.jpg
   actions:
-    - label: "Contact"
-      url: "about/"
+    - label: "Connect"
+      url: "/connect/"
 excerpt: "*Machine learning* and research software *engineer*,<br>turning data and cutting-edge research into practical tools."
 
 intro: 
