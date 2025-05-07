@@ -148,7 +148,7 @@ for hdp, apdp in [*hparams]:
     logdir=f"apdp_{str(apdp)}_hdp_{str(hdp)}"
     csv_logger = CSVLogger("experiments/dropout", name=logdir)
     model_name = "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"
-    dm = FileDataModule(model_name, "data/scifact", batch_size=8)
+    dm = FileDataModule("data/scifact", model_name, batch_size=8)
     model = PyversClassifier(
         dm.model_name,
         hidden_dropout_prob=hdp,
@@ -167,7 +167,7 @@ for hdp, apdp in [*hparams]:
 
 Notes on the script:
 
-- A simpler version of this script was used to fine-tune BERT, using `dm=FileDataModule("bert-base-uncased")` with the default batch size of 32.
+- A simpler version of this script was used to fine-tune BERT, using `model_name = "bert-base-uncased"` with the default batch size of 32.
 - This script logs metrics for all splits (train, validation, test) to CSV files for each hyperparameter setting. The script also logs metrics to TensorBoard to monitor loss and accuracy on the training and validation sets during training.
 
 
