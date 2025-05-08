@@ -1,6 +1,6 @@
 ---
 layout: notebook
-filename: "2024-11-21-thermodynamic-data-consistency-Li-mica.ipynb"
+filename: "2024-11-21-thermodynamic-data-consistency-the-case-of-Li-mica.ipynb"
 title: "Thermodynamic data consistency: The case of Li-mica"
 date: 2024-11-21T17:49:26+08:00
 categories:
@@ -174,7 +174,7 @@ title("Improbably high Li concentration\ndue to inconsistent data", font.main = 
 
 
     
-![png]({{ site.url }}{{ site.baseurl }}/assets/images/2024-11-21-thermodynamic-data-consistency-Li-mica_files/2024-11-21-thermodynamic-data-consistency-Li-mica_8_0.png)
+![png]({{ site.url }}{{ site.baseurl }}/assets/images/2024-11-21-thermodynamic-data-consistency-the-case-of-Li-mica_files/2024-11-21-thermodynamic-data-consistency-the-case-of-Li-mica_8_0.png)
     
 
 
@@ -209,7 +209,7 @@ title("Li concentration calculated from\nrevised Li-mica parameters", font.main 
 
 
     
-![png]({{ site.url }}{{ site.baseurl }}/assets/images/2024-11-21-thermodynamic-data-consistency-Li-mica_files/2024-11-21-thermodynamic-data-consistency-Li-mica_12_0.png)
+![png]({{ site.url }}{{ site.baseurl }}/assets/images/2024-11-21-thermodynamic-data-consistency-the-case-of-Li-mica_files/2024-11-21-thermodynamic-data-consistency-the-case-of-Li-mica_12_0.png)
     
 
 

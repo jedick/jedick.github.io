@@ -21,7 +21,7 @@ feature_row:
     excerpt: "
         My software engineering journey started with the **CHNOSZ** R package for thermodynamic calculations and diagrams.
         I have maintained this package [on CRAN](https://cran.r-project.org/package=CHNOSZ) since 2009 and it is used by [100+](https://scholar.google.com/scholar?cites=18385152422710735148&as_sdt=2005&sciodt=0,5&hl=en) [research groups](https://scholar.google.com/scholar?cites=8675465244739999021&as_sdt=2005&sciodt=0,5&hl=en) around the world.
-        One of the reasons for its success is *data quality* ([blog post](blog/thermodynamic-data-consistency-Li-mica/)) as much as the computational and visualization features.
+        One of the reasons for its success is *data quality* ([blog post](blog/thermodynamic-data-consistency-the-case-of-Li-mica/)) as much as the computational and visualization features.
    "
     url: "https://chnosz.net"
     btn_label: "CHNOSZ website"
@@ -30,7 +30,7 @@ feature_row:
     title: "NLP Engineering"
     excerpt: "
         My background in scientific software combines with a passion for writing to build robust *claim-verification systems* in the field of Natural Langauge Processing.
-        I've mastered the art of fine-tuning transformer models ([blog post](blog/experimenting-with-transformer-models/)).
+        I've mastered the art of fine-tuning transformer models ([blog post](blog/experimenting-with-transformer-models-for-citation-verification/)).
         My approach speaks to the MLOps paradigm of *iterating on the data* to create a powerful evidence-retrieval pipeline.
         This result is a state-of-the art system that helps writers and editors verify quotation accuracy in scientific publications.
     "
