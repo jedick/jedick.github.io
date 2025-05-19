@@ -80,6 +80,5 @@ This post is an edited version of [the chat](https://claude.ai/share/bdaf960a-7f
   I changed this to Belkin et al. (2019) and Rocks and Mehta (2022) as they are more relevant citations.
 - In a separate chat, I asked Claude to summarize the abstract of Bartlett et al. (2020), then added it to the list in the first section.
 - I compressed the "Practical Advice" list from five to three items and removed the citations from this part.
-- I asked Claude to create a graphic.
-  This produced less than perfect results (see [the chat](https://claude.ai/share/f4ec0882-b328-42b0-ae89-7c9cc205c0ae)), so I hand-edited the SVG file in Inkscape.
-  The inspiration for this diagram comes from Belkin et al. (2019).
+- I asked Claude to create a graphic (see [the chat](https://claude.ai/share/f4ec0882-b328-42b0-ae89-7c9cc205c0ae)),
+  then hand-edited the SVG file in Inkscape. The inspiration for this diagram comes from Belkin et al. (2019).
