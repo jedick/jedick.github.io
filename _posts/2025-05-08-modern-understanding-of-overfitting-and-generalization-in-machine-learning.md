@@ -14,7 +14,7 @@ classes: wide
 
 In a [previous post]({% post_url 2025-03-20-experimenting-with-transformer-models-for-citation-verification %}),
 I described my experience with fine-tuning transformer models on small NLP datasets with less than a few thousand examples.
-One of the goals of that exercise (a step in my [ML capstone project](https://github.com/jedick/ML-capstone-project)) was to reduce overfitting.
+One of the goals of that exercise (a step in my [ML engineering capstone project](https://github.com/jedick/MLE-capstone-project)) was to reduce overfitting.
 I found that transformer models began overfitting right away, with a massive decrease in training loss in the first few epochs, while validation loss increased.
 However, the validation accuracy showed improvements while fine-tuning for up to ten epochs.
 In other words, the model generalizes well despite classic signals of overfitting, but I didn't have a theoretical justification for using this model.
