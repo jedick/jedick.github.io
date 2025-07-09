@@ -16,7 +16,7 @@
 title: Learning with Machines
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Jeffrey Dick | Data Scientist and ML Engineer | Portfolio and Blog
+  Jeffrey Dick | ML Engineer | Portfolio + Blog
 twitter_username:
 github_username: jedick
 minimal_mistakes_skin: default
@@ -64,7 +64,7 @@ head_scripts:
 author:
   name   : "Jeffrey Dick"
   avatar : "/assets/siteimages/bio-photo.jpg"
-  bio    : "Machine Learning Engineer<br>Research Software Engineer"
+  bio    : "Machine Learning Engineer"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
