@@ -49,7 +49,7 @@ intro:
 - Massive documentation effort, including help pages, examples, demos, and vignettes
 - API supports third-party contributions, including a Shiny frontend and a Python interface
 
-## Software projects and CRAN packages
+## Software projects and packages
 
 - CRAN packages I maintain:
   - [CHNOSZ](https://doi.org/10.32614/CRAN.package.CHNOSZ): Thermodynamic calculations and diagrams for geochemistry
@@ -68,9 +68,11 @@ intro:
 ## PRs, issues, and discussions
 
 - [Created CHNOSZ Discussions forum on GitHub](https://github.com/jedick/CHNOSZ/discussions) for user support and engagement
+- [Answered LangChain question: Getting top k documents for ParentDocumentRetriever](https://github.com/langchain-ai/langchain/discussions/17582)
+  - Made sense of the documentation to show how to pass keyword arguments to the search function
 - [Answered LangChain issue: Using local Hugging Face pipeline](https://github.com/langchain-ai/langchain/issues/31324)
-  - Interpreted the error messsage and read the docs to correctly specify a missing component needed to build private chatbots
-- [Answered LangGraph issue: Extract tool name during streaming](https://github.com/langchain-ai/langgraph/discussions/3042)
+  - Digested the error messsage and docs to correctly specify a missing component needed to build private chatbots
+- [Answered LangGraph question: Extract tool name during streaming](https://github.com/langchain-ai/langgraph/discussions/3042)
   - Found solution for displaying tool names used in a chatbot application (first answer, 6 months after OP)
 - [Posted LangSmith issue: Fixes for experiment logging](https://github.com/nhuang-lc/langsmith-onboarding/issues/2)
   - Updated evaluation notebooks for compatibility with current API (allows reproducing steps in LangSmith onboarding videos)
@@ -80,7 +82,8 @@ intro:
 ## Academic research
 
 - [Reviewer for software and ML papers in science journals](https://webofscience.clarivate.cn/wos/author/record/K-1619-2013)
-- [Author of 20+ first-author papers and 50+ coauthored papers](http://scholar.google.com/scholar?hl=en)
+- [Published 20+ first-author papers and 50+ coauthored papers](http://scholar.google.com/scholar?hl=en)
 - Long-term committment to reproducible research
-  - [JMDplots](https://github.com/jedick/JMDplots) R package reproduces plots for 20 of my papers going back to 2006
-- For more info, see my [Research Overview](https://chnosz.net/jeff)
+  - [JMDplots](https://github.com/jedick/JMDplots) package reproduces plots for 20 of my papers going back to 2006
+  - See my [research overview](https://chnosz.net/jeff) for more info
+- *Transferable skills: scientific computing, project management, writing, critical thinking*
