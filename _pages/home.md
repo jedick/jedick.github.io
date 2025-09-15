@@ -10,80 +10,137 @@ header:
   actions:
     - label: "Connect"
       url: "/connect/"
-excerpt: "*Machine learning engineer coming from science,<br>turning research into seriously useful apps*"
+    - label: "GitHub"
+      url: "https://github.com/jedick"
+excerpt: "*From scientific discovery to trustworthy AI systems,<br>I build machine learning solutions that make real impact*"
 
 intro: 
-  - excerpt: "<h3>This portfolio tells a story of my journey starting as a scientist making software<br>and using data, to becoming an ML engineeer building reliable systems for industry</h3>"
+  - excerpt: "<h2>Bridging Science & Industry Through AI</h2><p>I'm a programmer with deep academic research roots, recently completing an ML engineering bootcamp focused on building dependable AI systems. My passion lies in creating AI that's not just smart, but trustworthy and adaptable—systems that learn from data and solve real problems.</p><p><strong>Currently:</strong> Developing cloud migration strategies and intelligent AI tools to accelerate scientific research teams.</p>"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-## Highlighted projects
+---
 
-### [AI4citations](https://github.com/jedick/AI4citations): AI-powered citation verification
+## My Journey: Where Science Meets AI Innovation
 
-<img src="/assets/siteimages/AI4citations_screenshot.png" alt="AI4citations screenshot" style="width:30%;"/>
+**The Problem I Solve:**
+As a programmer with deep academic roots, I've spent over a decade turning complex research questions into elegant software solutions.
+I've completed an intensive ML engineering bootcamp to pursue my passion for building AI systems that are **dependable, adaptable, and impactful**.
 
-- Checks the veracity of scientific claims against cited text
-- Web app built with Gradio frontend, deployed on Hugging Face
-- **Built API integration tests with continuous integration** (CI) in GitHub Actions to ensure working product with each commit
-- App collects user feedback into Hugging Face datasets
-- *The culmination of my [ML engineering capstone project](https://github.com/jedick/MLE-capstone-project), demonstrating skills in deploying and monitoring models and feedback collection for constant improvements*
+My unique perspective combines rigorous scientific methodology with modern ML engineering practices—creating solutions that researchers and industry professionals can trust with their most important data.
 
-### [pyvers](https://github.com/jedick/pyvers): NLP data processing and model training
+**My Mission:**
+Transform cutting-edge research into production-ready AI systems that researchers, organizations, and communities can actually use and trust.
 
-<img src="/assets/siteimages/pyvers_banner.png" alt="pyvers banner" style="width:30%;"/>
 
-- Implemented data processing from multiple data sources with normalized labels
-- Devised shuffled training method to achieve **7% improvement in F1 score over SOTA models** ([see blog post for details](blog/experimenting-with-transformer-models-for-citation-verification/))
-- Implemented in PyTorch lightning for reproducible & scalable training
-- *This project was the foundation for improved training using multiple datasets and leveraged software frameworks for model deployment locally or on cloud services, building my skills in data and software engineering*
+---
 
-### [CHNOSZ](https://chnosz.net): Enabling reproducible scientific workflows
+## 🎯 **Featured Projects: Where Science Meets Scale**
 
-<img src="/assets/siteimages/CHNOSZ_banner.png" alt="CHNOSZ banner" style="width:30%;"/>
+### **AI4citations**: Combating Scientific Misinformation with AI
 
-- Developed open-source R package with reproducible workflows to model chemical systems and make intuitive visualizations
-- [Maintained on CRAN](https://cran.r-project.org/package=CHNOSZ) since 2009 and cited more than [200](https://scholar.google.com/scholar?cites=18385152422710735148&as_sdt=2005&sciodt=0,5&hl=en) [times](https://scholar.google.com/scholar?cites=8675465244739999021&as_sdt=2005&sciodt=0,5&hl=en) by researchers around the world
-- **Automated data consistency checks increase confidence** in the community-driven thermodynamic database
-- Massive documentation effort, including help pages, examples, demos, and vignettes
-- API supports third-party contributions, including a Shiny frontend and a Python interface
+<img src="/assets/siteimages/AI4citations_screenshot.png" alt="AI4citations screenshot" style="width:35%; float:right; margin-left:20px;"/>
 
-## Software projects and packages
+**The Challenge:** Scientific misinformation spreads when citations don’t actually support the claims being made.
 
-- CRAN packages I maintain:
-  - [CHNOSZ](https://doi.org/10.32614/CRAN.package.CHNOSZ): Thermodynamic calculations and diagrams for geochemistry
-  - [canprot](https://doi.org/10.32614/CRAN.package.canprot): Chemical analysis of proteins
-  - [chem16S](https://doi.org/10.32614/CRAN.package.chem16S): Chemical features of microbial communities
+**The Solution:** Developed the [pyvers](https://github.com/jedick/pyvers) library, leveraging PyTorch for shuffled training on multiple datasets, laying the groundwork for breakthrough improvements in citation verification.
 
-- [orpML](https://github.com/jedick/orpML): Predicting oxidation-reduction potential from microbial abundances
-  - Supporting code for a research project in environmental microbiology
-  - Classical machine learning with scikit-learn and deep learning with PyTorch
-  - Improved performance of ML models by deriving features from thermodynamic models
+**Impact & Innovation**:
+- **7% improvement in F1 score** over state-of-the-art models through shuffled training methodology
+- Real-time web app with **continuous feedback collection** for model improvement
+- **Production-ready deployment** with CI/CD pipeline ensuring reliability with every update
+- Processes 500k+ verifiable claims with normalized multi-dataset training
 
-- [R-svg-intepreter](https://github.com/jedick/R-svg-interpreter): R script to visualize an SVG file with base R graphics
-  - **Written with AI assistance using Cursor**
-  - [Posted on the R-help mailing list](https://stat.ethz.ch/pipermail/r-help/2025-July/481079.html) to answer a user's request
+*This project showcases my ability to take research from concept to production, demonstrating skills in model optimization, deployment, and building systems that improve over time.*
 
-## PRs, issues, and discussions
+<div style="clear:both;"></div>
 
-- [Created CHNOSZ Discussions forum on GitHub](https://github.com/jedick/CHNOSZ/discussions) for user support and engagement
-- [Answered LangChain question: Getting top k documents for ParentDocumentRetriever](https://github.com/langchain-ai/langchain/discussions/17582)
-  - Made sense of the documentation to show how to pass keyword arguments to the search function
-- [Answered LangChain issue: Using local Hugging Face pipeline](https://github.com/langchain-ai/langchain/issues/31324)
-  - Digested the error messsage and docs to correctly specify a missing component needed to build private chatbots
-- [Answered LangGraph question: Extract tool name during streaming](https://github.com/langchain-ai/langgraph/discussions/3042)
-  - Found solution for displaying tool names used in a chatbot application (first answer, 6 months after OP)
-- [Posted LangSmith issue: Fixes for experiment logging](https://github.com/nhuang-lc/langsmith-onboarding/issues/2)
-  - Updated evaluation notebooks for compatibility with current API (allows reproducing steps in LangSmith onboarding videos)
-- [Committed to Gradio: Fix ValueError in Controlling the Reload demo](https://github.com/gradio-app/gradio/pull/11220)
-  - Fixed bug in documentation example to correctly handle pipeline output (PR accepted by Gradio maintainers)
+---
 
-## Academic research
+### [R-help-chat](https://github.com/jedick/R-help-chat): Making Knowledge Accessible Through Conversational AI
 
-- [Reviewer for software and ML papers in science journals](https://webofscience.clarivate.cn/wos/author/record/K-1619-2013)
-- [Published 20+ first-author papers and 50+ coauthored papers](http://scholar.google.com/scholar?hl=en)
-- Long-term committment to reproducible research
-  - [JMDplots](https://github.com/jedick/JMDplots) package reproduces plots for 20 of my papers going back to 2006
-  - See my [research overview](https://chnosz.net/jeff) for more info
-- *Transferable skills: scientific computing, project management, writing, critical thinking*
+<!-- <img src="/assets/siteimages/pyvers_banner.png" alt="R-help chatbot placeholder" style="width:35%; float:right; margin-right:20px;"/> -->
+
+**The Challenge**: Decades of valuable programming discussions buried in email archives, difficult to search effectively.
+
+**My Innovation**: A RAG-powered chatbot that transforms static archives into interactive knowledge discovery.
+
+**Technical Achievements**:
+- Local models for better **privacy and cost reduction** vs OpenAI
+- **10+ % accuracy improvement** through hybrid dense+sparse retrieval
+- LangGraph implementation with source citations for trustworthy responses
+- Multi-turn conversation interface for complex technical queries
+
+*This project demonstrates my expertise in modern NLP architectures, cost-effective AI deployment, and creating user experiences that unlock hidden value in existing data.*
+
+<div style="clear:both;"></div>
+
+---
+
+### [CHNOSZ](https://chnosz.net): Building Scientific Infrastructure That Lasts
+
+<img src="/assets/siteimages/CHNOSZ_banner.png" alt="CHNOSZ banner" style="width:35%; float:right; margin-left:20px;"/>
+
+**The Vision**: Scientific software that researchers worldwide can depend on for their most critical work.
+
+**15+ Years of Impact**:
+- **200+ citations** from researchers worldwide since 2009
+- **90% test coverage** with automated data consistency checks
+- **Maintained on CRAN** for 15+ years through multiple R versions
+- **Active community** supported through GitHub Discussions
+
+**Architecture for Longevity:**
+- Extensible API supporting third-party integrations (Shiny frontend, Python interface)
+- Comprehensive documentation ecosystem (help pages, examples, demos, vignettes)
+- Automated data validation to catch common data entry errors
+
+*This isn't just software—it's infrastructure that enables scientific discovery.
+The longevity and reliability demonstrate my commitment to building systems that stand the test of time.*
+
+<div style="clear:both;"></div>
+
+---
+
+## 🔬 **Emerging Projects: Pushing AI Boundaries**
+
+### **Statistical AI Agents**: Autonomous Data Analysis
+🚧 **[In Development]** 🚧
+*Building AI agents that can independently perform statistical analysis and generate insights*
+
+### **Docker Microservices for Science**: Scalable Computing Architecture  
+🚧 **[Planning Phase]** 🚧
+*Containerized scientific computing services for cloud-native research workflows*
+
+---
+
+## 💡 **What Sets Me Apart**
+
+I don't just implement algorithms—I solve meaningful problems:
+
+**🎯 Problem-First Thinking:** Academic training taught me to ask the right questions before building solutions.  
+**🛠️ Production-Ready Mindset:** 15+ years maintaining production software means I build for reliability, scalability, and long-term sustainability from day one.  
+**🤝 Community Builder:** Successfully grew and maintained global research communities. I understand that great AI systems require great user experiences and ongoing support.  
+**📊 Data Storyteller:** Published 70+ peer-reviewed papers requiring clear communication of complex technical concepts to diverse audiences.  
+**🔄 Continuous Learner:** From R packages to PyTorch models to LangChain applications—I adapt to new technologies while maintaining deep expertise.
+
+## 🔧 **Core Technical Skills**
+
+**AI & Machine Learning:** PyTorch • scikit-learn • NLP • Large Language Models • Fine-tuning • RAG Systems  
+**MLOps & Production:** Docker • AWS • CI/CD • Testing • Monitoring • Model Deployment • Hugging Face  
+**Data Engineering:** Python • SQL • R • Data Pipelines • Multi-source Integration • Quality Validation  
+**Development:** Git • Linux • Shell • Jupyter • API Design • Open Source Development 
+
+## 🎓 **Academic Foundation Meets Industry Innovation**
+
+My academic background isn't just about degrees—it's about transferable skills that make me a stronger ML engineer:
+
+**🔬 Research Methodology:** Hypothesis formation, experimental design, and rigorous evaluation  
+**📝 Technical Communication:** Translating complex concepts for diverse stakeholders  
+**🏆 Project Leadership:** Managing long-term projects from conception to community adoption  
+**🌍 Global Collaboration:** Working with international teams across time zones and cultures  
+**⚡ Innovation Under Constraints:** Creating solutions with limited resources and high quality standards
+
+---
+
+*Let's build AI that doesn't just work today—but works reliably for years to come.*
