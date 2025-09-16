@@ -36,17 +36,20 @@ Transform cutting-edge research into production-ready AI systems that researcher
 
 ---
 
-## 🎯 **Featured Projects: Where Science Meets Scale**
+## ⭐ **Featured Projects**
 
-### **AI4citations**: Combating Scientific Misinformation with AI
+### [AI4citations](https://github.com/jedick/AI4citations): Combating Scientific Misinformation with AI
 
-<img src="/assets/siteimages/AI4citations_screenshot.png" alt="AI4citations screenshot" style="width:35%; float:right; margin-left:20px;"/>
+<a href="https://huggingface.co/spaces/jedick/AI4citations">
+<img src="/assets/siteimages/AI4citations_banner.png" alt="AI4citations banner" style="width:35%; float:right; margin-left:20px;"/>
+</a>
 
 **The Challenge:** Scientific misinformation spreads when citations don’t actually support the claims being made.
 
-**The Solution:** Developed the [pyvers](https://github.com/jedick/pyvers) library, leveraging PyTorch for shuffled training on multiple datasets, laying the groundwork for breakthrough improvements in citation verification.
+**The Solution:** Shuffled training across multiple datasets lays the groundwork for breakthrough improvements in citation verification.
 
 **Impact & Innovation**:
+- Developed the [pyvers](https://github.com/jedick/pyvers) library (based on PyTorch) for data preprocessing and shuffled training
 - **7% improvement in F1 score** over state-of-the-art models through shuffled training methodology
 - Real-time web app with **continuous feedback collection** for model improvement
 - **Production-ready deployment** with CI/CD pipeline ensuring reliability with every update
@@ -58,9 +61,11 @@ Transform cutting-edge research into production-ready AI systems that researcher
 
 ---
 
-### [R-help-chat](https://github.com/jedick/R-help-chat): Making Knowledge Accessible Through Conversational AI
+### [R-help chat](https://github.com/jedick/R-help-chat): Making Knowledge Accessible Through Conversational AI
 
-<!-- <img src="/assets/siteimages/pyvers_banner.png" alt="R-help chatbot placeholder" style="width:35%; float:right; margin-right:20px;"/> -->
+<a href="https://huggingface.co/spaces/jedick/R-help-chat">
+<img src="/assets/siteimages/R-help-chat_banner.png" alt="R-help chatbot banner" style="width:35%; float:right; margin-right:20px;"/>
+</a>
 
 **The Challenge**: Decades of valuable programming discussions buried in email archives, difficult to search effectively.
 
@@ -80,7 +85,9 @@ Transform cutting-edge research into production-ready AI systems that researcher
 
 ### [CHNOSZ](https://chnosz.net): Building Scientific Infrastructure That Lasts
 
+<a href="https://cran.r-project.org/web/packages/CHNOSZ/index.html">
 <img src="/assets/siteimages/CHNOSZ_banner.png" alt="CHNOSZ banner" style="width:35%; float:right; margin-left:20px;"/>
+</a>
 
 **The Vision**: Scientific software that researchers worldwide can depend on for their most critical work.
 
