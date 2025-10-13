@@ -12,10 +12,10 @@ header:
       url: "/connect/"
     - label: "GitHub"
       url: "https://github.com/jedick"
-excerpt: "*Building trustworthy AI systems that transform research<br>into real-world impact*"
+excerpt: "*Building reliable AI systems for data science*"
 
 intro: 
-  - excerpt: "<h2>Where Science Meets AI Innovation</h2><p>I'm a machine learning engineer with deep academic research roots.<br>My passion lies in creating AI that's trustworthy and adaptable—<br>systems that learn from data and solve real problems.</p>"
+  - excerpt: "<h2>Where Science Meets AI Innovation</h2><p>I'm a machine learning engineer with deep academic research roots.<br>My passion lies in creating AI that's reliable and adaptable—<br>systems that learn from data and solve real problems.</p>"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -26,11 +26,8 @@ I'm always on the lookout for opportunities to pursue my passion for building AI
 
 My unique perspective combines rigorous scientific methodology with modern ML engineering practices—creating solutions that researchers and industry professionals can trust with their most important data.
 
-**My mission:**
-Transform cutting-edge research into production-ready AI systems that researchers, organizations, and communities can actually use and trust.
-
 **Currently:**
-Developing cloud-based apps and intelligent AI tools to accelerate scientific research teams.
+Developing agentic AI systems for data visualiation and cloud migrations for scientific research groups.
 
 ---
 
