@@ -27,7 +27,7 @@ I'm always on the lookout for opportunities to pursue my passion for building AI
 My unique perspective combines rigorous scientific methodology with modern ML engineering practices—creating solutions that researchers and industry professionals can trust with their most important data.
 
 **Currently:**
-Developing agentic AI systems for data visualiation and cloud migrations for scientific research groups.
+Developing agentic AI systems for data visualization and cloud migrations for scientific research groups.
 
 ---
 
