@@ -1,9 +1,15 @@
 main:
-  - title: "Portfolio"
+  - title: "Welcome"
     url: /
-  - title: "Posts"
+  - title: "AI4citations"
+    url: /ai4citations/
+  - title: "R-help chat"
+    url: /r-help-chat/
+  - title: "Noteworthy Differences"
+    url: /noteworthy-differences/
+  - title: "CHNOSZ"
+    url: /chnosz/
+  - title: "Blog"
     url: /posts/
-  - title: "Tags"
-    url: /tags/
   - title: "Connect"
     url: /connect/

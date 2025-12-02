@@ -15,124 +15,210 @@ header:
 excerpt: "*Building reliable AI systems for data science*"
 
 intro: 
-  - excerpt: "<h2>Where Science Meets AI Innovation</h2><p>I'm a machine learning engineer with deep academic research roots.<br>My passion lies in creating AI that's reliable and adaptable—<br>systems that learn from data and solve real problems.</p>"
+  - excerpt: "<h2>Where Science Meets AI Innovation</h2>"
+
+feature_row:
+  - image_path: /assets/siteimages/AI4citations_banner.png
+    alt: "AI4citations banner"
+    title: "Combating inaccurate citations with AI"
+    excerpt: "AI4citations takes scientific citation research from concept to production, leveraging my skills in model optimization, deployment, and building systems that improve from feedback."
+  - image_path: /assets/siteimages/noteworthy-differences_banner.png
+    alt: "Noteworthy Differences banner"
+    title: "AI alignment for detecting meaningful changes"
+    excerpt: "Here I put into practice AI alignment methodologies, human-in-the-loop systems, and building practical solutions for filtering signal from noise in document updates."
+    url: "/noteworthy-differences/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/siteimages/R-help-chat_banner.png
+    title: "Placeholder 3"
+    excerpt: "Agentic retrieval for 10+ years of email archives, designed for deep research and continual data updates."
 ---
 
-{% include feature_row id="intro" type="center" %}
+<!-- {% include feature_row id="intro" type="center" %} -->
 
-**The problem I solve:**
+<h2>Where Science Meets AI Innovation</h2>
+
 I've spent over a decade turning complex research questions into elegant software solutions.
 I'm always on the lookout for opportunities to pursue my passion for building AI systems that are **dependable, adaptable, and impactful**.
 
 My unique perspective combines rigorous scientific methodology with modern ML engineering practices—creating solutions that researchers and industry professionals can trust with their most important data.
 
-**Currently:**
-Developing agentic AI systems for data visualization and cloud migrations for scientific research groups.
-
 ---
 
 ## ⭐ Featured Projects
 
-### [AI4citations](https://github.com/jedick/AI4citations): Combating scientific misinformation with AI
+<!--
 
-<a href="https://huggingface.co/spaces/jedick/AI4citations">
-<img src="/assets/siteimages/AI4citations_banner.png" alt="AI4citations banner" style="width:35%; float:right; margin-left:20px;"/>
-</a>
+feature_row uses "read more" button which is distracting
 
-**The challenge:** Researchers spend countless hours manually verifying citations, while misinformation spreads through unchecked claims.
+{% include feature_row %}
 
-**The solution:** Shuffled training across multiple datasets lays the groundwork for breakthrough improvements in citation verification.
+divs added by Cursor - use this to get clickable images and titles
 
-**Impact & innovation**:
-- <strong>[pyvers](https://github.com/jedick/pyvers)</strong> package (based on PyTorch Lightning) automates preprocessing and training on claim verification datasets
-- **7% improvement in F1 score** over state-of-the-art models through shuffled training methodology
-- Real-time web app with **continuous feedback collection** for model improvement
-- **Production-ready deployment** with CI/CD pipeline ensuring reliability with every update
+ -->
 
-*This project showcases my ability to take research from concept to production, demonstrating skills in model optimization, deployment, and building systems that improve over time.*
+<div class="feature__wrapper">
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <a href="/ai4citations/">
+          <img src="/assets/siteimages/AI4citations_banner.png" alt="AI4citations banner">
+        </a>
+      </div>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">
+          <a href="/ai4citations/">Combating inaccurate citations with AI</a>
+        </h2>
+        <div class="archive__item-excerpt">
+          <p>AI4citations takes scientific citation research from concept to production, leveraging my skills in model optimization, deployment, and building systems that improve from feedback.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div style="clear:both;"></div>
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <a href="/r-help-chat/">
+          <img src="/assets/siteimages/R-help-chat_banner.png" alt="R-help chatbot banner">
+        </a>
+      </div>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">
+          <a href="/r-help-chat/">Making knowledge accessible through conversational AI</a>
+        </h2>
+        <div class="archive__item-excerpt">
+          <p>Agentic retrieval for 10+ years of email archives, designed for deep research and continual data updates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
----
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <a href="/noteworthy-differences/">
+          <img src="/assets/siteimages/noteworthy-differences_banner.png" alt="Noteworthy Differences banner">
+        </a>
+      </div>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">
+          <a href="/noteworthy-differences/">AI alignment for detecting meaningful changes</a>
+        </h2>
+        <div class="archive__item-excerpt">
+          <p>Here I put into practice AI alignment methodologies, human-in-the-loop systems, and building practical solutions for filtering signal from noise in document updates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-### [R-help chat](https://github.com/jedick/R-help-chat): Making knowledge accessible through conversational AI
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <a href="/chnosz/">
+          <img src="/assets/siteimages/CHNOSZ_banner.png" alt="CHNOSZ banner">
+        </a>
+      </div>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">
+          <a href="/chnosz/">Building scientific infrastructure that lasts</a>
+        </h2>
+        <div class="archive__item-excerpt">
+          <p>This isn't just software—it's infrastructure that enables scientific discovery. The longevity and reliability demonstrate my commitment to building systems that stand the test of time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<a href="https://huggingface.co/spaces/jedick/R-help-chat">
-<img src="/assets/siteimages/R-help-chat_banner.png" alt="R-help chatbot banner" style="width:35%; float:right; margin-right:20px;"/>
-</a>
+<style>
 
-**The challenge**: Decades of valuable programming discussions buried in email archives, difficult to search effectively.
+/* Added by Cursor, but makes cards too narrow */
+/*
+.feature__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
 
-**My innovation**: A RAG-powered chatbot that transforms static archives into interactive knowledge discovery.
+.feature__item {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
 
-**Technical achievements**:
-- Local models for **improved privacy** and **cost reduction** vs OpenAI
-- **10% accuracy improvement** through hybrid dense+sparse retrieval
-- LangGraph implementation with source citations for trustworthy responses
-- Multi-turn conversational interface for complex technical queries
+.feature__item:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
-*This project demonstrates my expertise in modern NLP architectures, cost-effective AI deployment, and creating user experiences that unlock hidden value in existing data.*
+.archive__item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 
-<div style="clear:both;"></div>
+.archive__item-teaser {
+  flex-shrink: 0;
+}
 
----
+.archive__item-teaser img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
 
-### [Noteworthy Differences](https://github.com/jedick/noteworthy-differences): AI alignment for detecting meaningful changes
+.archive__item-body {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
 
-<a href="https://huggingface.co/spaces/jedick/noteworthy-differences">
-<img src="/assets/siteimages/noteworthy-differences_banner.png" alt="Noteworthy Differences banner" style="width:35%; float:right; margin-left:20px;"/>
-</a>
+.archive__item-title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
 
-**The challenge**: Documents are constantly updated, but users only want notifications for significant changes. Training AI systems to detect what humans consider noteworthy requires careful alignment.
+.archive__item-title a {
+  color: #2c3e50;
+  text-decoration: none;
+}
 
-**The solution**: A two-stage AI alignment pipeline that combines classifier disagreement detection with human-in-the-loop annotation to create aligned AI judges.
+.archive__item-title a:hover {
+  color: #1a252f;
+  text-decoration: underline;
+}
 
-**Technical achievements**:
-- **Two-stage architecture** with classifiers and judge models for robust change detection
-- **Disagreement-based annotation** focusing human effort on hard examples (only 8-9% of cases)
-- **16% improvement in test accuracy** with heuristic-aligned judge vs unaligned baseline
-- **Confidence estimation** based on agreement levels among classifiers and judge
-- **Production-ready Gradio interface** for real-time noteworthy difference detection
+.archive__item-excerpt {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+</style>
 
-*This project demonstrates my expertise in AI alignment methodologies, human-in-the-loop systems, and building practical solutions for filtering signal from noise in document updates.*
-
-<div style="clear:both;"></div>
-
----
-
-### [CHNOSZ](https://chnosz.net): Building scientific infrastructure that lasts
-
-<a href="https://cran.r-project.org/web/packages/CHNOSZ/index.html">
-<img src="/assets/siteimages/CHNOSZ_banner.png" alt="CHNOSZ banner" style="width:35%; float:right; margin-left:20px;"/>
-</a>
-
-**The vision**: Scientific software that researchers worldwide can depend on for years to come.
-
-**1.5 decades of impact**:
-- **Maintained on CRAN** since 2009
-- **200+ citations** from researchers worldwide
-- **90% test coverage** for smoother development and back-compatibility
-- **Active community** supported through GitHub Discussions
-
-**Architecture for longevity:**
-- Extensible API supporting third-party integrations (Shiny frontend, Python interface)
-- Comprehensive documentation ecosystem (help pages, examples, demos, vignettes)
-- Automated data consistency checks to catch common data entry errors
-
-*This isn't just software—it's infrastructure that enables scientific discovery.
-The longevity and reliability demonstrate my commitment to building systems that stand the test of time.*
-
-<div style="clear:both;"></div>
+<!--
 
 ---
 
 ## 🚧 Projects In Development: Pushing AI Boundaries 🚧
 
-### [Statistical AI Agents](https://github.com/jedick/invent-agents-and-R): Autonomous data analysis
+### [Statistical AI Agents](https://github.com/jedick/plotmydata): Autonomous data analysis
 *Building AI agents that can independently perform statistical analysis and generate insights*
 
 ### [Docker Microservices for Science](https://github.com/jedick/speciation-microservice): Scalable computing architecture
 *Containerized scientific computing services for cloud-native research workflows*
+
+-->
 
 ---
 

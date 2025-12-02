@@ -1,0 +1,28 @@
+---
+layout: single
+permalink: /ai4citations/
+title: AI4citations
+subtitle: Combating scientific misinformation with AI
+---
+
+### Combating inaccurate citations with AI
+
+[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md.svg)](https://huggingface.co/spaces/jedick/AI4citations)
+<a href="https://github.com/jedick/AI4citations"><img alt="GitHub" src="https://img.shields.io/github/last-commit/jedick/AI4citations?logo=GitHub"></a>
+
+<a href="https://huggingface.co/spaces/jedick/AI4citations">
+<img src="/assets/siteimages/AI4citations_banner.png" alt="AI4citations banner" style="width:35%; float:right; margin-left:20px;"/>
+</a>
+
+**The challenge:** Researchers spend countless hours manually verifying citations, while misinformation spreads through unchecked claims.
+
+**The solution:** Shuffled training across multiple datasets lays the groundwork for breakthrough improvements in citation verification.
+
+**Impact & innovation**:
+- <strong>[pyvers](https://github.com/jedick/pyvers)</strong> package (based on PyTorch Lightning) automates preprocessing and training on claim verification datasets
+- **7% improvement in F1 score** over state-of-the-art models through shuffled training methodology
+- Real-time web app with **continuous feedback collection** for model improvement
+- **Production-ready deployment** with CI/CD pipeline ensuring reliability with every update
+
+<div style="clear:both;"></div>
+
