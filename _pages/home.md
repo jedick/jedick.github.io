@@ -77,6 +77,29 @@ Developing agentic AI systems for data visualization and cloud migrations for sc
 
 ---
 
+### [Noteworthy Differences](https://github.com/jedick/noteworthy-differences): AI alignment for detecting meaningful changes
+
+<a href="https://huggingface.co/spaces/jedick/noteworthy-differences">
+<img src="/assets/siteimages/noteworthy-differences_banner.png" alt="Noteworthy Differences banner" style="width:35%; float:right; margin-left:20px;"/>
+</a>
+
+**The challenge**: Documents are constantly updated, but users only want notifications for significant changes. Training AI systems to detect what humans consider noteworthy requires careful alignment.
+
+**The solution**: A two-stage AI alignment pipeline that combines classifier disagreement detection with human-in-the-loop annotation to create aligned AI judges.
+
+**Technical achievements**:
+- **Two-stage architecture** with classifiers and judge models for robust change detection
+- **Disagreement-based annotation** focusing human effort on hard examples (only 8-9% of cases)
+- **16% improvement in test accuracy** with heuristic-aligned judge vs unaligned baseline
+- **Confidence estimation** based on agreement levels among classifiers and judge
+- **Production-ready Gradio interface** for real-time noteworthy difference detection
+
+*This project demonstrates my expertise in AI alignment methodologies, human-in-the-loop systems, and building practical solutions for filtering signal from noise in document updates.*
+
+<div style="clear:both;"></div>
+
+---
+
 ### [CHNOSZ](https://chnosz.net): Building scientific infrastructure that lasts
 
 <a href="https://cran.r-project.org/web/packages/CHNOSZ/index.html">
