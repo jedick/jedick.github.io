@@ -14,27 +14,28 @@ header:
       url: "https://github.com/jedick"
 excerpt: "*Building reliable AI systems for data science*"
 
-intro: 
-  - excerpt: "<h2>Where Science Meets AI Innovation</h2>"
-
-feature_row:
+featured_projects:
   - image_path: /assets/siteimages/AI4citations_banner.png
     alt: "AI4citations banner"
     title: "Combating inaccurate citations with AI"
-    excerpt: "AI4citations takes scientific citation research from concept to production, leveraging my skills in model optimization, deployment, and building systems that improve from feedback."
+    excerpt: "Taking citation verification analysis from research to production through model optimization, deployment, and feedback collection."
+    url: "/ai4citations/"
+  - image_path: /assets/siteimages/R-help-chat_banner.png
+    alt: "R-help chatbot banner"
+    title: "Making knowledge accessible through conversational AI"
+    excerpt: "Agentic retrieval for 10+ years of email archives, designed for deep research and continual data updates."
+    url: "/r-help-chat/"
   - image_path: /assets/siteimages/noteworthy-differences_banner.png
     alt: "Noteworthy Differences banner"
     title: "AI alignment for detecting meaningful changes"
-    excerpt: "Here I put into practice AI alignment methodologies, human-in-the-loop systems, and building practical solutions for filtering signal from noise in document updates."
+    excerpt: "This project leverages AI alignment with human-in-the-loop to build a practical solution for filtering signal from noise in document updates."
     url: "/noteworthy-differences/"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-  - image_path: /assets/siteimages/R-help-chat_banner.png
-    title: "Placeholder 3"
-    excerpt: "Agentic retrieval for 10+ years of email archives, designed for deep research and continual data updates."
+  - image_path: /assets/siteimages/CHNOSZ_banner.png
+    alt: "CHNOSZ banner"
+    title: "Building scientific software that lasts"
+    excerpt: "This package enables scientific discovery based on community-driven data updates and a commitment to testing and long-term maintenance."
+    url: "/noteworthy-differences/"
 ---
-
-<!-- {% include feature_row id="intro" type="center" %} -->
 
 <h2>Where Science Meets AI Innovation</h2>
 
@@ -47,104 +48,23 @@ My unique perspective combines rigorous scientific methodology with modern ML en
 
 ## ⭐ Featured Projects
 
-<!--
-
-feature_row uses "read more" button which is distracting
-
-{% include feature_row %}
-
-divs added by Cursor - use this to get clickable images and titles
-
- -->
-
-<div class="feature__wrapper">
-  <div class="feature__item">
-    <div class="archive__item">
-      <div class="archive__item-teaser">
-        <a href="/ai4citations/">
-          <img src="/assets/siteimages/AI4citations_banner.png" alt="AI4citations banner">
-        </a>
-      </div>
-      <div class="archive__item-body">
-        <h2 class="archive__item-title">
-          <a href="/ai4citations/">Combating inaccurate citations with AI</a>
-        </h2>
-        <div class="archive__item-excerpt">
-          <p>AI4citations takes scientific citation research from concept to production, leveraging my skills in model optimization, deployment, and building systems that improve from feedback.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="feature__item">
-    <div class="archive__item">
-      <div class="archive__item-teaser">
-        <a href="/r-help-chat/">
-          <img src="/assets/siteimages/R-help-chat_banner.png" alt="R-help chatbot banner">
-        </a>
-      </div>
-      <div class="archive__item-body">
-        <h2 class="archive__item-title">
-          <a href="/r-help-chat/">Making knowledge accessible through conversational AI</a>
-        </h2>
-        <div class="archive__item-excerpt">
-          <p>Agentic retrieval for 10+ years of email archives, designed for deep research and continual data updates.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="feature__item">
-    <div class="archive__item">
-      <div class="archive__item-teaser">
-        <a href="/noteworthy-differences/">
-          <img src="/assets/siteimages/noteworthy-differences_banner.png" alt="Noteworthy Differences banner">
-        </a>
-      </div>
-      <div class="archive__item-body">
-        <h2 class="archive__item-title">
-          <a href="/noteworthy-differences/">AI alignment for detecting meaningful changes</a>
-        </h2>
-        <div class="archive__item-excerpt">
-          <p>Here I put into practice AI alignment methodologies, human-in-the-loop systems, and building practical solutions for filtering signal from noise in document updates.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="feature__item">
-    <div class="archive__item">
-      <div class="archive__item-teaser">
-        <a href="/chnosz/">
-          <img src="/assets/siteimages/CHNOSZ_banner.png" alt="CHNOSZ banner">
-        </a>
-      </div>
-      <div class="archive__item-body">
-        <h2 class="archive__item-title">
-          <a href="/chnosz/">Building scientific infrastructure that lasts</a>
-        </h2>
-        <div class="archive__item-excerpt">
-          <p>This isn't just software—it's infrastructure that enables scientific discovery. The longevity and reliability demonstrate my commitment to building systems that stand the test of time.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+{% include feature_row id="featured_projects" %}
 
 <style>
 
-/* Added by Cursor, but makes cards too narrow */
-/*
 .feature__wrapper {
+  /* Cursor used this but it makes cards too narrow */
+  /*
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  */
+  display: flex;
   gap: 1.5rem;
   margin: 2rem 0;
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
-*/
 
 .feature__item {
   border: 1px solid #e8e8e8;
