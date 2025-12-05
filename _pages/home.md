@@ -142,32 +142,32 @@ My unique perspective combines rigorous scientific methodology with modern ML en
 
 ---
 
-## 💡 What Sets Me Apart
+## <i class="fa-solid fa-arrow-right"></i> What Sets Me Apart
 
 I don't just implement algorithms—I solve meaningful problems:
 
-**🎯 Problem-first thinking:** Academic training taught me to ask the right questions before building solutions.  
-**🛠️ Production-ready mindset:** 15+ years maintaining production software means I build for reliability, scalability, and long-term sustainability from day one.  
-**🤝 Community builder:** Successfully grew and maintained global research communities. I understand that great AI systems require great user experiences and ongoing support.  
-**📊 Data storyteller:** Authored 25+ peer-reviewed papers requiring clear communication of complex technical concepts to diverse audiences.  
-**🔄 Continuous learner:** From R packages to PyTorch models to LangChain applications—I adapt to new technologies while maintaining deep expertise.
+**Problem-first thinking:** Academic training taught me to ask the right questions before building solutions.  
+**Production-ready mindset:** 15+ years maintaining production software means I build for reliability, scalability, and long-term sustainability from day one.  
+**Community builder:** Successfully grew and maintained global research communities.  
+**Data storyteller:** Authored 20+ peer-reviewed papers requiring clear communication of complex technical concepts to diverse audiences.  
+**Continuous learner:** From R packages to PyTorch models to LangChain applications—I adapt to new technologies while maintaining deep expertise.
 
-## 🔧 **Core Technical Skills**
+## <i class="fa-solid fa-check"></i> **Core Technical Skills**
 
 **AI & machine learning:** PyTorch • scikit-learn • NLP • Large Language Models • Fine-tuning • RAG Systems  
 **MLOps & production:** Docker • AWS • CI/CD • Testing • Monitoring • Model Deployment • Hugging Face  
 **Data engineering:** Python • SQL • R • Data Pipelines • Multi-source Integration • Quality Validation  
 **Development:** Git • Linux • Shell • Jupyter • API Design • Open Source Development 
 
-## 🎓 **Academic Foundation Meets Industry Innovation**
+## <i class="fa-solid fa-university"></i> **Academic Foundation Meets Industry Innovation**
 
 My academic background isn't just about degrees—it's about transferable skills that make me a stronger ML engineer:
 
-**🔬 Research methodology:** Hypothesis formation, experimental design, and rigorous evaluation  
-**📝 Technical communication:** Translating complex concepts for diverse stakeholders  
-**🏆 Project leadership:** Managing long-term projects from conception to community adoption  
-**🌍 Global collaboration:** Working with international teams across time zones and cultures  
-**⚡ Innovation under constraints:** Creating solutions with limited resources and high quality standards
+**Research methodology:** Hypothesis formation, experimental design, and rigorous evaluation  
+**Technical communication:** Translating complex concepts for diverse stakeholders  
+**Project leadership:** Managing long-term projects from conception to community adoption  
+**Global collaboration:** Working with international teams across time zones and cultures  
+**Innovation under constraints:** Creating solutions with limited resources and high quality standards
 
 ---
 

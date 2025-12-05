@@ -16,7 +16,7 @@
 title: Learning with Machines
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Jeffrey Dick | ML Engineer | Portfolio + Blog
+  Jeffrey Dick | Data Scientist and ML Engineer | Portfolio
 twitter_username:
 github_username: jedick
 minimal_mistakes_skin: default
@@ -64,29 +64,26 @@ head_scripts:
 author:
   name   : "Jeffrey Dick"
   avatar : "/assets/siteimages/bio-photo.jpg"
-  bio    : "Machine Learning Engineer"
+  bio    : ""
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:j3ffdick@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jeffrey-m-dick/"
+      url: "https://linkedin.com/in/jeffrey-m-dick/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jedick"
 
-#footer:
-#  links:
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      url: "https://twitter.com/"
-#    - label: "GitHub"
-#      icon: "fab fa-fw fa-github"
-#      url: "https://github.com/"
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      url: "https://instagram.com/"
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/jeffrey-m-dick/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jedick"
 
 defaults:
   # _posts

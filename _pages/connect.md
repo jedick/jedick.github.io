@@ -4,7 +4,7 @@ title: "Let's connect"
 ---
 
 Hello!
-I'm a machine learning engineer with deep academic research roots.
+I'm a data scientist and machine learning engineer with deep academic research roots.
 My passion lies in creating AI that's reliable and adaptable—
 systems that learn from data and solve real problems.
 
