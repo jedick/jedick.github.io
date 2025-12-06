@@ -15,11 +15,6 @@ header:
 excerpt: "*Building reliable AI systems for data science*"
 
 featured_projects:
-  - image_path: /assets/siteimages/AI4citations_banner.png
-    alt: "AI4citations banner"
-    title: "Combating inaccurate citations with AI"
-    excerpt: "Taking citation verification analysis from research to production through model optimization, deployment, and feedback collection."
-    url: "/ai4citations/"
   - image_path: /assets/siteimages/R-help-chat_banner.png
     alt: "R-help chatbot banner"
     title: "Making knowledge accessible through conversational AI"
@@ -30,11 +25,16 @@ featured_projects:
     title: "AI alignment for detecting meaningful changes"
     excerpt: "This project leverages AI alignment with human-in-the-loop to build a practical solution for filtering signal from noise in document updates."
     url: "/noteworthy-differences/"
-  - image_path: /assets/siteimages/CHNOSZ_banner.png
-    alt: "CHNOSZ banner"
+  - image_path: /assets/siteimages/AI4citations_banner.png
+    alt: "AI4citations banner"
+    title: "Combating inaccurate citations with AI"
+    excerpt: "Taking citation verification analysis from research to production through model optimization, deployment, and feedback collection."
+    url: "/ai4citations/"
+  - image_path: /assets/siteimages/CHNOSZ_diagram.png
+    alt: "CHNOSZ workflows"
     title: "Building scientific software that lasts"
-    excerpt: "This package enables scientific discovery based on community-driven data updates and a commitment to testing and long-term maintenance."
-    url: "/noteworthy-differences/"
+    excerpt: "Enabling scientific discovery through chemical data analysis and visualization workflows and a commitment to testing and long-term maintenance."
+    url: "/chnosz/"
 ---
 
 <h2>Where Science Meets AI Innovation</h2>
@@ -161,7 +161,7 @@ I don't just implement algorithms—I solve meaningful problems:
 
 ## <i class="fa-solid fa-university"></i> **Academic Foundation Meets Industry Innovation**
 
-My academic background isn't just about degrees—it's about transferable skills that make me a stronger ML engineer:
+My academic background isn't just about papers—it's about transferable skills that make me a stronger ML engineer:
 
 **Research methodology:** Hypothesis formation, experimental design, and rigorous evaluation  
 **Technical communication:** Translating complex concepts for diverse stakeholders  

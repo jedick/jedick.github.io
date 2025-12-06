@@ -7,8 +7,8 @@ subtitle: Combating scientific misinformation with AI
 
 ### Combating inaccurate citations with AI
 
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/jedick/AI4citations?logo=github)](https://github.com/jedick/AI4citations)
 [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md.svg)](https://huggingface.co/spaces/jedick/AI4citations)
-<a href="https://github.com/jedick/AI4citations"><img alt="GitHub" src="https://img.shields.io/github/last-commit/jedick/AI4citations?logo=GitHub"></a>
 
 <a href="https://huggingface.co/spaces/jedick/AI4citations">
 <img src="/assets/siteimages/AI4citations_banner.png" alt="AI4citations banner" style="width:35%; float:right; margin-left:20px;"/>

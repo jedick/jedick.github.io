@@ -7,8 +7,8 @@ subtitle: AI alignment for detecting meaningful changes
 
 ### AI alignment for detecting meaningful changes
 
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/jedick/noteworthy-differences?logo=github)](https://github.com/jedick/noteworthy-differences)
 [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md.svg)](https://huggingface.co/spaces/jedick/noteworthy-differences)
-<a href="https://github.com/jedick/noteworthy-differences"><img alt="GitHub" src="https://img.shields.io/github/last-commit/jedick/noteworthy-differences?logo=GitHub"></a>
 
 <a href="https://huggingface.co/spaces/jedick/noteworthy-differences">
 <img src="/assets/siteimages/noteworthy-differences_banner.png" alt="Noteworthy Differences banner" style="width:35%; float:right; margin-left:20px;"/>

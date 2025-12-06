@@ -1,12 +1,12 @@
 main:
   - title: "Welcome"
     url: /
-  - title: "AI4citations"
-    url: /ai4citations/
   - title: "R-help chat"
     url: /r-help-chat/
   - title: "Noteworthy Differences"
     url: /noteworthy-differences/
+  - title: "AI4citations"
+    url: /ai4citations/
   - title: "CHNOSZ"
     url: /chnosz/
   - title: "Blog"
