@@ -20,13 +20,16 @@ subtitle: Building scientific infrastructure that lasts
 **1.5 decades of impact**:
 - [**Maintained on CRAN**](https://cran.r-project.org/web/packages/CHNOSZ/index.html) since 2009
 - **200+ citations** from researchers worldwide
-- **90% test coverage** for smoother development and back-compatibility
+<!-- - **90% test coverage** for smoother development and back-compatibility -->
 - **Active community** supported through GitHub Discussions
 
 **Architecture for longevity:**
-- Extensible API supporting third-party integrations (Shiny frontend, Python interface)
-- Comprehensive documentation ecosystem (help pages, examples, demos, vignettes)
+- Community-driven database updates with source citations
 - Automated data consistency checks to catch common data entry errors
+- Extensible API supporting third-party integrations:
+  [Shiny frontend](https://geoscienceaustralia.shinyapps.io/GeoTPD/),
+  [Python interface](https://pypi.org/project/pyCHNOSZ/)
+- Comprehensive documentation including help pages, demos, and vignettes
 
 <div style="clear:both;"></div>
 

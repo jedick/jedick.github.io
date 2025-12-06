@@ -18,7 +18,9 @@ featured_projects:
   - image_path: /assets/siteimages/R-help-chat_banner.png
     alt: "R-help chatbot banner"
     title: "Making knowledge accessible through conversational AI"
-    excerpt: "Agentic retrieval for 10+ years of email archives, designed for deep research and continual data updates."
+    excerpt: >
+      Agentic retrieval for 10+ years of email archives, designed for deep research and continual data updates.
+      <i class="fa-brands fa-youtube"></i> [Walkthrough video](https://youtu.be/mLQqW7zea-k)
     url: "/r-help-chat/"
   - image_path: /assets/siteimages/noteworthy-differences_banner.png
     alt: "Noteworthy Differences banner"
