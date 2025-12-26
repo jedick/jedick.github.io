@@ -5,7 +5,7 @@ title: AI4citations
 subtitle: Combating scientific misinformation with AI
 ---
 
-### Combating inaccurate citations with AI
+### Finding inaccurate citations with AI
 
 <a href="https://huggingface.co/spaces/jedick/AI4citations">
 <img src="/assets/siteimages/AI4citations_banner.png" alt="AI4citations banner" style="width:50%; float:right; margin-left:20px;"/>
@@ -24,3 +24,6 @@ subtitle: Combating scientific misinformation with AI
 - Real-time web app with **feedback collection** for model improvement
 - **Production-ready deployment** with CI/CD pipeline ensuring reliability with every update
 
+## Related blog post
+
+[Modern understanding of overfitting and generalization in machine learning](/blog/modern-understanding-of-overfitting-and-generalization-in-machine-learning/)

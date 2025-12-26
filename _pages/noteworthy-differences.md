@@ -24,3 +24,7 @@ subtitle: AI alignment for detecting meaningful changes
 - **16% improvement in test accuracy** with heuristic-aligned judge vs unaligned baseline
 - **Confidence estimation** based on agreement levels among classifiers and judge
 - **Production-ready Gradio interface** for real-time noteworthy difference detection
+
+## Related blog post
+
+[Combating concept drift in LLM applications](/blog/combating-concept-drift-in-LLM-applications/)

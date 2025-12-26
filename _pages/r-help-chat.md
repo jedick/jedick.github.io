@@ -14,8 +14,6 @@ subtitle: Making knowledge accessible through conversational AI
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/jedick/R-help-chat?logo=github)](https://github.com/jedick/R-help-chat)
 [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md.svg)](https://huggingface.co/spaces/jedick/R-help-chat)
 
-<i class="fa-brands fa-youtube"></i> [*Watch the walkthrough video*](https://youtu.be/mLQqW7zea-k)
-
 **The challenge**: Decades of valuable programming discussions buried in email archives, difficult to search effectively.
 
 **My innovation**: A RAG-powered chatbot that transforms static archives into interactive knowledge discovery.
@@ -28,3 +26,6 @@ subtitle: Making knowledge accessible through conversational AI
 
 <div style="clear:both;"></div>
 
+## YouTube video
+
+<i class="fa-brands fa-youtube"></i> [R-help-chat walkthrough](https://youtu.be/mLQqW7zea-k)

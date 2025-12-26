@@ -33,3 +33,6 @@ subtitle: Building scientific infrastructure that lasts
 
 <div style="clear:both;"></div>
 
+## Related blog post
+
+[Thermodynamic data consistency: The case of Li-mica](/blog/thermodynamic-data-consistency-the-case-of-Li-mica/)

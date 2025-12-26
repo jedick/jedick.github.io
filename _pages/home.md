@@ -29,7 +29,7 @@ featured_projects:
     url: "/noteworthy-differences/"
   - image_path: /assets/siteimages/AI4citations_banner.png
     alt: "AI4citations banner"
-    title: "Combating inaccurate citations with AI"
+    title: "Finding inaccurate citations with AI"
     excerpt: "Taking citation verification analysis from research to production through model optimization, deployment, and feedback collection."
     url: "/ai4citations/"
   - image_path: /assets/siteimages/CHNOSZ_diagram.png
@@ -38,9 +38,9 @@ featured_projects:
     excerpt: "Enabling scientific discovery through chemical data analysis and visualization workflows and a commitment to testing and long-term maintenance."
     url: "/chnosz/"
 featured_posts:
-  - image_path: /assets/images/2025-12-26-fixing-concept-drift-in-LLM-apps/concept-drift.jpg
-    alt: "Concept drift and feedback loop optimization"
-    title: "Fixing concept drift in LLM aps"
+  - image_path: /assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/concept-drift.jpg
+    alt: "Combating concept drift through feedback-driven prompt engineering"
+    title: "Combating concept drift in LLM applicationss"
     excerpt: >
       Your LLM application works beautifully at launch. 
       The model understands user preferences, accuracy metrics look great, and feedback is positive.
@@ -48,7 +48,7 @@ featured_posts:
       Users complain.
       Metrics slide.
       What happened?
-    url: "/blog/fixing-concept-drift-in-LLM-apps/"
+    url: "/blog/combating-concept-drift-in-LLM-applications/"
   - image_path: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double-descent.svg
     alt: "Double Descent: Rethinking Overfitting"
     title: "Modern understanding of overfitting and generalization in machine learning"
