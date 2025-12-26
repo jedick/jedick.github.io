@@ -9,6 +9,10 @@ tags:
   - NLP
   - Claim Verification
 classes: wide
+header:
+  teaser: /assets/images/2025-03-20-experimenting-with-transformer-models-for-citation-verification/accuracy_curves.png
+  header: /assets/images/2025-03-20-experimenting-with-transformer-models-for-citation-verification/accuracy_curves.png
+  og_image: /assets/images/2025-03-20-experimenting-with-transformer-models-for-citation-verification/accuracy_curves.png
 ---
 
 Automated verification of scientific claims represents a critical application of natural language processing in maintaining research integrity. The exponential growth in scientific literature has created an urgent need for computational methods that can validate citation accuracy at scale. This article provides a systematic comparison of transformer-based architectures for scientific claim verification, evaluating their performance across multiple datasets and examining the trade-offs between model complexity, computational efficiency, and generalization capabilities.

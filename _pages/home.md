@@ -37,6 +37,34 @@ featured_projects:
     title: "Building scientific software that lasts"
     excerpt: "Enabling scientific discovery through chemical data analysis and visualization workflows and a commitment to testing and long-term maintenance."
     url: "/chnosz/"
+featured_posts:
+  - image_path: /assets/images/2025-12-26-fixing-concept-drift-in-LLM-apps/concept-drift.jpg
+    alt: "Concept drift and feedback loop optimization"
+    title: "Fixing concept drift in LLM aps"
+    excerpt: >
+      Your LLM application works beautifully at launch. 
+      The model understands user preferences, accuracy metrics look great, and feedback is positive.
+      Then, gradually—or sometimes suddenly—performance starts to degrade.
+      Users complain.
+      Metrics slide.
+      What happened?
+    url: "/blog/fixing-concept-drift-in-LLM-apps/"
+  - image_path: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double-descent.svg
+    alt: "Double Descent: Rethinking Overfitting"
+    title: "Modern understanding of overfitting and generalization in machine learning"
+    excerpt: >
+      The conventional wisdom about the bias-variance tradeoff in machine learning has been dramatically challenged by modern neural networks.
+      Traditionally, we believed that increasing model complexity would decrease bias but increase variance.
+      However, recent research reveals that highly overparameterized models often generalize exceptionally well despite perfectly fitting the training data.
+    url: "/blog/modern-understanding-of-overfitting-and-generalization-in-machine-learning/"
+  - image_path: /assets/images/2025-03-20-experimenting-with-transformer-models-for-citation-verification/accuracy_curves.png
+    alt: "Accuracy curves for training DeBERTa transformer model with citation verification datasets"
+    title: "Experimenting with transformer models for citation verification "
+    excerpt: >
+      This article provides a systematic comparison of transformer-based architectures for scientific claim verification,
+      evaluating their performance across multiple datasets and examining the trade-offs between
+      model complexity, computational efficiency, and generalization capabilities.
+    url: "/blog/experimenting-with-transformer-models-for-citation-verification/"
 ---
 
 <h2>Where Science Meets AI Innovation</h2>
@@ -48,9 +76,13 @@ My unique perspective combines rigorous scientific methodology with modern ML en
 
 ---
 
-## ⭐ Featured Projects
+## 💼 Featured Projects
 
 {% include feature_row id="featured_projects" %}
+
+## 📝 Featured Posts
+
+{% include feature_row id="featured_posts" %}
 
 <style>
 
@@ -142,35 +174,3 @@ My unique perspective combines rigorous scientific methodology with modern ML en
 
 -->
 
----
-
-## <i class="fa-solid fa-arrow-right"></i> What Sets Me Apart
-
-I don't just implement algorithms—I solve meaningful problems:
-
-**Problem-first thinking:** Academic training taught me to ask the right questions before building solutions.  
-**Production-ready mindset:** 15+ years maintaining production software means I build for reliability, scalability, and long-term sustainability from day one.  
-**Community builder:** Successfully grew and maintained global research communities.  
-**Data storyteller:** Authored 20+ peer-reviewed papers requiring clear communication of complex technical concepts to diverse audiences.  
-**Continuous learner:** From R packages to PyTorch models to LangChain applications—I adapt to new technologies while maintaining deep expertise.
-
-## <i class="fa-solid fa-check"></i> **Core Technical Skills**
-
-**AI & machine learning:** PyTorch • scikit-learn • NLP • Large Language Models • Fine-tuning • RAG Systems  
-**MLOps & production:** Docker • AWS • CI/CD • Testing • Monitoring • Model Deployment • Hugging Face  
-**Data engineering:** Python • SQL • R • Data Pipelines • Multi-source Integration • Quality Validation  
-**Development:** Git • Linux • Shell • Jupyter • API Design • Open Source Development 
-
-## <i class="fa-solid fa-university"></i> **Academic Foundation Meets Industry Innovation**
-
-My academic background isn't just about papers—it's about transferable skills that make me a stronger ML engineer:
-
-**Research methodology:** Hypothesis formation, experimental design, and rigorous evaluation  
-**Technical communication:** Translating complex concepts for diverse stakeholders  
-**Project leadership:** Managing long-term projects from conception to community adoption  
-**Global collaboration:** Working with international teams across time zones and cultures  
-**Innovation under constraints:** Creating solutions with limited resources and high quality standards
-
----
-
-*Let's build AI that doesn't just work today—but works reliably for years to come.*

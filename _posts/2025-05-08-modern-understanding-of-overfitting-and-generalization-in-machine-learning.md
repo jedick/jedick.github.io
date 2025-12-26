@@ -8,9 +8,13 @@ tags:
   - Overfitting
   - Bias-Variance Tradeoff
 classes: wide
+header:
+  teaser: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double-descent.svg
+  header: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double-descent.svg
+  og_image: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double-descent.svg
 ---
 
-![Double Descent: Rethinking Overfitting](/assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double_descent_graphic.svg)
+![Double Descent: Rethinking Overfitting](/assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double-descent.svg)
 
 In a [previous post]({% post_url 2025-03-20-experimenting-with-transformer-models-for-citation-verification %}),
 I described my experience with fine-tuning transformer models on small NLP datasets with less than a few thousand examples.
