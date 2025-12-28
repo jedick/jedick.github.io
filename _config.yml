@@ -106,6 +106,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # Add projects sidebar to every page
+  - scope:
+      path: ""
+    values:
+      sidebar:
+        nav: "projects"
 
 category_archive:
   type: liquid

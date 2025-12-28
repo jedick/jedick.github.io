@@ -40,7 +40,7 @@ featured_projects:
 featured_posts:
   - image_path: /assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/concept-drift.jpg
     alt: "Combating concept drift through feedback-driven prompt engineering"
-    title: "Combating concept drift in LLM applicationss"
+    title: "Combating concept drift in LLM applications"
     excerpt: >
       Your LLM application works beautifully at launch. 
       The model understands user preferences, accuracy metrics look great, and feedback is positive.
