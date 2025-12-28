@@ -26,3 +26,6 @@ html {
         font-size: 18px; // originally 22px
     }
 }
+
+/* Highlight active navigation link in masthead */
+.masthead__menu-item .active { font-weight: bold; }
