@@ -1,27 +1,14 @@
-# Minimal Mistakes remote theme starter
+# Plog
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+1. Portfolio + blog
+2. [Picking up litter while jogging](https://en.wikipedia.org/wiki/Plogging)
 
-Contains basic configuration to get you a site with:
+<div align="left">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Plogging_with_Coastal_Striders_-_FUNK9730_%2842405061590%29.jpg" alt="Plogging" style="width:20%;"/>
+</div>
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
-
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
-
----
-
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+## History
+- This site was originally generated from the [Minimal Mistakes remote theme starter](https://github.com/mmistakes/mm-github-pages-starter) on 2024-11-13.
+  - The *remote theme method* uses the `github-pages` gem which is [no longer maintained](https://github.com/github/docs/issues/36740) as of 2025.
+- This site was converted to use the GitHub Actions workflow [Deploy Jekyll site to Pages](https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml) on 2025-12-29.
+  - Thanks to [this answer by LindseyB](https://github.com/mmistakes/minimal-mistakes/discussions/4007#discussioncomment-4130516) for pointing out the use of GitHub Actions with the *gem based method*.
