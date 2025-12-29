@@ -9,12 +9,10 @@ tags:
   - Bias-Variance Tradeoff
 classes: wide
 header:
-  teaser: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double-descent.svg
-  header: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double-descent.svg
-  og_image: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double-descent.svg
+  teaser: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double_descent.svg
+  header: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double_descent.svg
+  og_image: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double_descent.svg
 ---
-
-![Double Descent: Rethinking Overfitting](/assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double-descent.svg)
 
 In a [previous post]({% post_url 2025-03-20-experimenting-with-transformer-models-for-citation-verification %}),
 I described my experience with fine-tuning transformer models on small NLP datasets with less than a few thousand examples.
@@ -31,6 +29,8 @@ A few web searches on "overparameterized vs overfitting" uncovered a subfield of
 These findings (summarized below) support my earlier decision to overfit the model to achieve better generalization.
 
 ## Two-Minute Summary
+
+![Double Descent: Rethinking Overfitting](/assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double_descent.svg)
 
 The conventional wisdom about the bias-variance tradeoff in machine learning has been dramatically challenged by modern neural networks.
 Traditionally, we believed that increasing model complexity would decrease bias but increase variance,

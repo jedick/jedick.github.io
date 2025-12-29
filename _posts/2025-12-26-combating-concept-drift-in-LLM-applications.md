@@ -8,9 +8,9 @@ tags:
   - LLM
 classes: wide
 header:
-  teaser: /assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/concept-drift.jpg
-  header: /assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/concept-drift.jpg
-  og_image: /assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/concept-drift.jpg
+  teaser: /assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/concept_drift.jpg
+  header: /assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/concept_drift.jpg
+  og_image: /assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/concept_drift.jpg
 ---
 
 Your LLM application works beautifully at launch.
@@ -27,7 +27,7 @@ But for LLM applications built with prompt engineering (what Andrej Karpathy cal
 We need a different approach.
 
 <figure style="width: 75%">
-  <img src="/assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/concept-drift.jpg" alt="Concept drift and feedback loop optimization">
+  <img src="/assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/concept_drift.jpg" alt="Concept drift and feedback loop optimization">
   <figcaption>
     Combating concept drift through data-driven prompt engineering.
     Image generated with ChatGPT and edited with GIMP.
@@ -51,7 +51,7 @@ By time step 4, that dropped to just 22%, a 48% decrease in the positive class r
 This is textbook concept drift.
 
 <figure style="width: 75%">
-  <img src="/assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/eval-accuracy.png" alt="Plots of concept drift and model accuracy">
+  <img src="/assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/eval_accuracy.png" alt="Plots of concept drift and model accuracy">
   <figcaption>
     Left: Percentage of examples labeled as noteworthy decreases dramatically over time.
     Right: Model accuracy under different alignment strategies.

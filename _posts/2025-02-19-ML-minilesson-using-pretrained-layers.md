@@ -7,6 +7,10 @@ tags:
   - Machine Learning
   - Transfer Learning
   - TensorFlow
+header:
+  teaser: /assets/images/2025-02-19-ML-minilesson-using-pretrained-layers/base_model.png
+  header: /assets/images/2025-02-19-ML-minilesson-using-pretrained-layers/base_model.png
+  og_image: /assets/images/2025-02-19-ML-minilesson-using-pretrained-layers/base_model.png
 ---
 
 Transfer learning take layers of an existing neural network previously trained on a (usually large) dataset.

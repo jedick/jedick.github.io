@@ -38,7 +38,7 @@ featured_projects:
     excerpt: "Enabling scientific discovery through chemical data analysis and visualization workflows and a commitment to testing and long-term maintenance."
     url: "/chnosz/"
 featured_posts:
-  - image_path: /assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/concept-drift.jpg
+  - image_path: /assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/concept_drift.jpg
     alt: "Combating concept drift through feedback-driven prompt engineering"
     title: "Combating concept drift in LLM applications"
     excerpt: >
@@ -49,7 +49,7 @@ featured_posts:
       Metrics slide.
       What happened?
     url: "/blog/combating-concept-drift-in-LLM-applications/"
-  - image_path: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double-descent.svg
+  - image_path: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double_descent.svg
     alt: "Double Descent: Rethinking Overfitting"
     title: "Modern understanding of overfitting and generalization in machine learning"
     excerpt: >
