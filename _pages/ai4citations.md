@@ -1,14 +1,14 @@
 ---
-layout: single
-permalink: /ai4citations/
 title: AI4citations
 subtitle: Combating scientific misinformation with AI
+permalink: /ai4citations/
+classes: wide
 ---
 
 ### Finding inaccurate citations with AI
 
 <a href="https://huggingface.co/spaces/jedick/AI4citations">
-<img src="/assets/siteimages/AI4citations_banner.png" alt="AI4citations banner" style="width:50%; float:right; margin-left:20px;"/>
+<img src="/assets/siteimages/AI4citations_banner.png" alt="AI4citations banner" style="width:40%; float:right; margin-left:20px;"/>
 </a>
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/jedick/AI4citations?logo=github)](https://github.com/jedick/AI4citations)

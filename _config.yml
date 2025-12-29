@@ -70,7 +70,7 @@ footer:
       url: "https://github.com/jedick"
 
 defaults:
-  # _posts
+  # Posts
   - scope:
       path: ""
       type: posts
@@ -83,19 +83,21 @@ defaults:
       related: true
       # Added by jmd on 20241126
       show_date: true
-  # _pages
+  # Pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
-  # Add projects sidebar to every page
+  # Add projects and science sidebars to every page
   - scope:
       path: ""
     values:
       sidebar:
-        nav: "projects"
+        nav:
+          - "AI"
+          - "science"
 
 category_archive:
   type: liquid

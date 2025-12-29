@@ -1,7 +1,7 @@
 ---
-layout: splash
-permalink: /
 title: Jeffrey Dick
+permalink: /
+layout: splash
 
 header:
   overlay_color: "#000"

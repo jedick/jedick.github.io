@@ -1,0 +1,122 @@
+---
+title: Research
+permalink: /research/
+classes: wide
+---
+
+*Computational approaches to understanding geosphere-biosphere coevolution through geochemical modeling and genomic data analysis.*
+
+My scientific research explores how life adapts to chemical environments by developing computational methods that bridge geochemistry and genomics.
+This includes building software tools for thermodynamic modeling and analyzing large sequence datasets to better understand
+how microbial communities and proteins respond to environmental changes at evolutionary time scales.
+
+## 💻 Software & Methods
+
+### chem16S: Chemical metrics for exploring genomic adaptation
+📄 [*Bioinformatics* (2023)](https://doi.org/10.1093/bioinformatics/btad564)
+📊 [Vignette](https://chnosz.net/JMDplots/vignettes/chem16S.html)
+
+Developed a method to quantify community-level genomic differences using chemical variables.
+Key finding: distinct chemical signatures differentiate microbial communities across redox and salinity gradients,
+revealing how environmental chemistry shapes genomic composition.
+**Technical approach:** R package implementation with visualization tools for analyzing 16S rRNA datasets.
+
+### CHNOSZ: Thermodynamic calculations and diagrams for geochemistry
+📄 [*Frontiers in Earth Science* (2019)](https://doi.org/10.3389/feart.2019.00180)
+📊 [Vignette](https://chnosz.net/JMDplots/vignettes/chnosz10.html)
+
+Developed and maintain CHNOSZ, an open-source R package for thermodynamic calculations with applications to geochemistry, materials science, and microbiology.
+The software integrates extensive thermodynamic databases with functions to calculate chemical affinities, standard molal properties,
+and generate high-quality Eh-pH and other types of chemical activity diagrams.
+**Technical features:** Continuously updated since 2009, includes comprehensive documentation (help pages, demos, vignettes),
+enables computational reproducibility in geochemical modeling.
+
+### Diagrams with multiple metals in CHNOSZ
+📄 [*Applied Computing and Geosciences* (2021)](https://doi.org/10.1016/j.acags.2021.100059)
+📊 [Vignette](https://chnosz.net/vignettes/multi-metal.html)
+
+Extended CHNOSZ capabilities to handle multi-metal systems using the mosaic stacking technique.
+This methodological advancement enables construction of equilibrium diagrams for bimetallic minerals (e.g., Fe-V, Cu-Fe systems).
+**Applications:** Hydrothermal geochemistry, materials science, ore deposit modeling, corrosion prediction.
+
+## 🧬 Genome Evolution and the Environment
+
+### Community- and genome-based evidence for redox influence on protein evolution
+📄 [*mSystems* (2023)](https://doi.org/10.1128/msystems.00014-23)
+📊 [Vignette](https://chnosz.net/JMDplots/vignettes/orp16S.html)
+
+Demonstrated global- and local-scale correlations between environmental redox potential (Eh) and carbon oxidation state of proteins from microbial genomes.
+This work shows that environmental redox conditions leave quantifiable signatures in genomic sequences.
+
+### Thermodynamic approach to geochemical information from genomes
+📄 [*Geobiology* (2023)](https://doi.org/10.1111/gbi.12532)
+📊 [Vignette](https://chnosz.net/JMDplots/vignettes/utogig.html)
+
+Thermodynamic analysis of genomic data for extracting geochemical features (redox, pH, and temperatures),
+with applications to deciphering environmental settings of past evolutionary transitions.
+
+### Water activity and redox potential in evolution and development
+📄 [*Journal of Molecular Evolution* (2022)](https://doi.org/10.1007/s00239-022-10051-7)
+📊 [Vignette](https://chnosz.net/JMDplots/vignettes/evdevH2O.html)
+
+Applied thermodynamic modeling to protein sequences across different gene ages, reconstructing redox conditions favoring protein formation through deep time.
+Results support the hypothesis of life originating in reducing environments and provide a quantitative framework
+for linking sequence data to ancient environmental chemistry.
+**Technical contribution:** Integration of thermodynamic calculations with comparative genomics.
+
+## 🦠 Human Body Chemistry: Microbiomes and Proteomes
+
+### Chemical features of proteins in microbial genomes associated with body sites and gut inflammation
+📄 [*Biomedical Informatics* (2025)](https://doi.org/10.55092/bi20250003)
+📊 [Vignette](https://chnosz.net/JMDplots/vignettes/microhum.html)
+
+Applied computational analysis combining reference genomes with microbial abundances to quantify water and oxygen content of proteins at the community level.
+Key findings:
+(1) gut bacterial proteins have systematically lower water content compared to other body sites, indicating site-specific evolutionary adaptations, and
+(2) obligate anaerobes (e.g., *Faecalibacterium*) have more oxidized proteins than aerotolerant bacteria, favoring survival during inflammatory oxidative stress.
+**Data:** Multi-omics datasets including metagenomics, metatranscriptomics, and metaproteomics.
+
+### Water as a reactant in differential protein expression in cancer
+📄 [*Computational and Systems Oncology* (2021)](https://doi.org/10.1002/cso2.1007)
+📊 [Vignette](https://chnosz.net/JMDplots/vignettes/canH2O.html)
+
+Analyzed hundreds of proteomic datasets to quantify stoichiometric hydration state (*n*H<sub>2</sub>O) in protein expression changes.
+Found systematically higher values in cancer tissue compared to healthy tissue,
+suggesting a physicochemical link between protein expression patterns and elevated cellular water content in tumors.
+**Methods:** Large-scale analysis of chemical features in cancer proteomics datasets.
+
+## 🤝 Collaborative Research
+
+### Growth and stability of stratiform carrollite (CuCo<sub>2</sub>S<sub>4</sub>) in the Tenke-Fungurume ore district, Central African Copperbelt
+von der Heyden, Dick, Rosenfels, Carlton, Lilova, Navrotsky, Subramani, Woodfield & Gibson  
+📄 [*The Canadian Journal of Mineralogy and Petrology* (2024)](https://doi.org/10.3749/2300028)
+📊 [Vignette](https://chnosz.net/JMDplots/vignettes/carrollite.html)
+
+Integrated multiple data sources to develop the first comprehensive thermodynamic dataset for carrollite, the main ore mineral of cobalt for battery applications.
+Combined heat capacity measurements and oxide melt solution calorimetry with trace element analysis to constrain mineral stability and substitution mechanisms.
+**Key findings:** Carrollite stability between 211-438°C, with temperature-dependent zonation patterns in ore deposits.
+Models predict mineral assemblages and metal solubility under varying pH, temperature, and redox conditions.
+
+### Physicochemical constraints on the abiotic polymerization of nucleotides into RNA
+LaRowe & Dick  
+📄 [*Journal of Geophysical Research: Biogeosciences* (2025)](https://doi.org/10.1029/2025JG009095)
+💾 [Model code on Zenodo](https://doi.org/10.5281/zenodo.15377396)
+
+Quantified energetic controls on RNA formation from nucleotides across diverse environmental conditions relevant to the origin of life.
+Used Gibbs energy calculations to predict nucleotide polymerization probability
+and RNA length distributions as functions of temperature, pressure, pH, and composition.
+**Computational framework:** CHNOSZ `mosaic()` function to handle complex speciation of ionizable compounds
+(phosphate, nucleotides) across temperature-pressure-pH space.
+This approach accounts for all possible charge states and their equilibrium proportions in solution.
+**Open science:** Model code publicly archived, enabling experimental validation and application to other planetary environments  
+
+## Research profiles
+
+<img style="height:1em; vertical-align:middle; margin: 0px;" alt="Google Scholar" src="/assets/icons/googlescholar.png"/>
+[Google Scholar](https://scholar.google.com/citations?user=iLvwus8AAAAJ)  
+<img style="height:1em; vertical-align:middle; margin: 0px;" alt="Google Scholar" src="/assets/icons/semanticscholar.png"/>
+[Semantic Scholar](https://www.semanticscholar.org/author/Jeffrey-M.-Dick/145014320)  
+<img style="height:1em; vertical-align:middle; margin: 0px;" alt="Google Scholar" src="/assets/icons/researchgate.png"/>
+[ResearchGate](https://www.researchgate.net/profile/Jeffrey-Dick-3)  
+<img style="height:1em; vertical-align:middle; margin: 0px;" alt="Google Scholar" src="/assets/icons/orcid.png"/>
+[ORCiD](https://orcid.org/0000-0002-0687-5890)

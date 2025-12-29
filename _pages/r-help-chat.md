@@ -1,14 +1,14 @@
 ---
-layout: single
-permalink: /r-help-chat/
 title: R-help chat
 subtitle: Making knowledge accessible through conversational AI
+permalink: /r-help-chat/
+classes: wide
 ---
 
 ### Making knowledge accessible through conversational AI
 
 <a href="https://huggingface.co/spaces/jedick/R-help-chat">
-<img src="/assets/siteimages/R-help-chat_banner.png" alt="R-help chatbot banner" style="width:50%; float:right;"/>
+<img src="/assets/siteimages/R-help-chat_banner.png" alt="R-help chatbot banner" style="width:40%; float:right;"/>
 </a>
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/jedick/R-help-chat?logo=github)](https://github.com/jedick/R-help-chat)

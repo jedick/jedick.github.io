@@ -1,14 +1,14 @@
 ---
-layout: single
-permalink: /noteworthy-differences/
 title: Noteworthy Differences
 subtitle: AI alignment for detecting meaningful changes
+permalink: /noteworthy-differences/
+classes: wide
 ---
 
 ### AI alignment for detecting meaningful changes
 
 <a href="https://huggingface.co/spaces/jedick/noteworthy-differences">
-<img src="/assets/siteimages/noteworthy-differences_workflow.png" alt="Noteworthy Differences workflow" style="width:50%; float:right; margin-left:20px;"/>
+<img src="/assets/siteimages/noteworthy-differences_workflow.png" alt="Noteworthy Differences workflow" style="width:40%; float:right; margin-left:20px;"/>
 </a>
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/jedick/noteworthy-differences?logo=github)](https://github.com/jedick/noteworthy-differences)

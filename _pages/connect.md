@@ -1,6 +1,6 @@
 ---
+title: Let's connect
 permalink: /connect/
-title: "Let's connect"
 classes: wide
 ---
 
@@ -37,7 +37,3 @@ I don't just implement algorithms—I solve meaningful problems:
 **Project leadership:** Managing long-term projects from conception to community adoption  
 **Global collaboration:** Working with international teams across time zones and cultures  
 **Innovation under constraints:** Creating solutions with limited resources and high quality standards
-
----
-
-*Let's build AI that doesn't just work today—but works reliably for years to come.*

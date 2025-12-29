@@ -1,14 +1,14 @@
 ---
-layout: single
-permalink: /chnosz/
 title: CHNOSZ
 subtitle: Building scientific infrastructure that lasts
+permalink: /chnosz/
+classes: wide
 ---
 
 ### Building scientific infrastructure that lasts
 
 <a href="https://chnosz.net">
-<img src="/assets/siteimages/CHNOSZ_banner.png" alt="CHNOSZ banner" style="width:50%; float:right; margin-left:20px;"/>
+<img src="/assets/siteimages/CHNOSZ_banner.png" alt="CHNOSZ banner" style="width:40%; float:right; margin-left:20px;"/>
 </a>
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/jedick/CHNOSZ?logo=github)](https://github.com/jedick/CHNOSZ)
@@ -32,6 +32,10 @@ subtitle: Building scientific infrastructure that lasts
 - Comprehensive documentation including help pages, demos, and vignettes
 
 <div style="clear:both;"></div>
+
+## Main web site
+
+🔗 [https://chnosz.net](https://chnosz.net)
 
 ## Related blog post
 

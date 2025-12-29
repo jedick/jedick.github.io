@@ -6,8 +6,8 @@ main:
   - title: "Connect"
     url: /connect/
 
-projects:
-  - title: "Projects"
+AI:
+  - title: "AI Projects"
     children:
     - title: "R-help chat"
       url: /r-help-chat/
@@ -15,5 +15,11 @@ projects:
       url: /noteworthy-differences/
     - title: "AI4citations"
       url: /ai4citations/
+
+science:
+  - title: "Science Projects"
+    children:
     - title: "CHNOSZ"
       url: /chnosz/
+    - title: "Research"
+      url: /research/
