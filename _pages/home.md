@@ -38,7 +38,7 @@ science_projects:
   - image_path: /assets/siteimages/CHNOSZ_diagram.png
     alt: CHNOSZ diagram
     title: CHNOSZ
-    excerpt: Enabling scientific discovery through thermodynamic calculations and visualization
+    excerpt: Enabling scientific discovery through thermodynamic calculations and diagrams
     url: /projects/CHNOSZ/
   - image_path: /assets/siteimages/oxidation_and_hydration.png
     alt: Evolutionary oxidation and hydration trends for proteins

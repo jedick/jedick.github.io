@@ -2,9 +2,9 @@ main:
   - title: "Home"
     url: /
   - title: "Projects"
-    url: /categories/#projects
+    url: /projects/
   - title: "Blog"
-    url: /categories/#blog
+    url: /blog/
   - title: "Connect"
     url: /connect/
 

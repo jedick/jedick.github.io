@@ -31,6 +31,9 @@ header:
 - Real-time web app with **feedback collection** for model improvement
 - **Production-ready deployment** with CI/CD pipeline ensuring reliability with every update
 
-## 📝 Related blog post
+## 📝 Related blog posts
 
-[Modern understanding of overfitting and generalization in machine learning](/blog/modern-understanding-of-overfitting-and-generalization-in-machine-learning/)
+[Deploying AI4citations: From research to production](/blog/deploying-AI4citations-from-research-to-production/)  
+[Modern understanding of overfitting and generalization in machine learning](/blog/modern-understanding-of-overfitting-and-generalization-in-machine-learning/)  
+[Experimenting with transformer models for citation verification](/blog/experimenting-with-transformer-models-for-citation-verification/)
+
