@@ -1,8 +1,7 @@
 ---
 title: "LLMs in claim verification"
 date: 2024-12-23T12:23:18+08:00
-categories:
-  - Blog
+category: Blog
 tags:
   - LLMs
 ---

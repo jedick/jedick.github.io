@@ -1,10 +1,18 @@
 ---
 title: AI4citations
-subtitle: Combating scientific misinformation with AI
-permalink: /ai4citations/
+category: Projects
+last_modified_at: 2025-12-06
+show_date: false
+read_time: false
+share: false
+related: false
+header:
+  teaser: /assets/siteimages/AI4citations_banner.png
+  header: /assets/siteimages/AI4citations_banner.png
+  og_image: /assets/siteimages/AI4citations_banner.png
 ---
 
-### Finding inaccurate citations with AI
+## Fighting inaccurate citations with AI
 
 <a href="https://huggingface.co/spaces/jedick/AI4citations">
 <img src="/assets/siteimages/AI4citations_banner.png" alt="AI4citations banner" style="width:40%; float:right; margin-left:20px;"/>
@@ -23,6 +31,6 @@ permalink: /ai4citations/
 - Real-time web app with **feedback collection** for model improvement
 - **Production-ready deployment** with CI/CD pipeline ensuring reliability with every update
 
-## Related blog post
+## 📝 Related blog post
 
 [Modern understanding of overfitting and generalization in machine learning](/blog/modern-understanding-of-overfitting-and-generalization-in-machine-learning/)

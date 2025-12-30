@@ -3,8 +3,7 @@ layout: notebook
 filename: "2024-11-21-thermodynamic-data-consistency-the-case-of-Li-mica.ipynb"
 title: "Thermodynamic data consistency: The case of Li-mica"
 date: 2024-11-21T17:49:26+08:00
-categories:
-  - Blog
+category: Blog
 tags:
   - Geochemistry
   - Data

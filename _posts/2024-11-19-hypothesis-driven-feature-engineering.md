@@ -3,8 +3,7 @@ layout: notebook
 filename: "2024-11-19-hypothesis-driven-feature-engineering.ipynb"
 title: "Hypothesis-driven feature engineering"
 date: 2024-11-19T19:17:47+08:00
-categories:
-  - Blog
+category: Blog
 tags:
   - Feature Engineering
   - Genomics

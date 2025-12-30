@@ -1,10 +1,18 @@
 ---
 title: R-help chat
-subtitle: Making knowledge accessible through conversational AI
-permalink: /r-help-chat/
+category: Projects
+last_modified_at: 2025-12-06
+show_date: false
+read_time: false
+share: false
+related: false
+header:
+  teaser: /assets/siteimages/R-help-chat_banner.png
+  header: /assets/siteimages/R-help-chat_banner.png
+  og_image: /assets/siteimages/R-help-chat_banner.png
 ---
 
-### Making knowledge accessible through conversational AI
+## Making knowledge accessible through conversational AI
 
 <a href="https://huggingface.co/spaces/jedick/R-help-chat">
 <img src="/assets/siteimages/R-help-chat_banner.png" alt="R-help chatbot banner" style="width:40%; float:right;"/>
@@ -25,6 +33,6 @@ permalink: /r-help-chat/
 
 <div style="clear:both;"></div>
 
-## YouTube video
+## <i class="fa-brands fa-youtube"></i> YouTube video
 
-<i class="fa-brands fa-youtube"></i> [R-help-chat walkthrough](https://youtu.be/mLQqW7zea-k)
+[R-help-chat walkthrough](https://youtu.be/mLQqW7zea-k)

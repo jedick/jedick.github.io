@@ -1,8 +1,7 @@
 ---
 title: "Modern understanding of overfitting and generalization in machine learning"
 date: 2025-05-08T09:05:48+08:00
-categories:
-  - Blog
+category: Blog
 tags:
   - Machine Learning
   - Overfitting

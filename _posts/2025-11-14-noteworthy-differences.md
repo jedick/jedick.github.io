@@ -1,10 +1,18 @@
 ---
 title: Noteworthy Differences
-subtitle: AI alignment for detecting meaningful changes
-permalink: /noteworthy-differences/
+category: Projects
+last_modified_at: 2025-12-06
+show_date: false
+read_time: false
+share: false
+related: false
+header:
+  teaser: /assets/siteimages/noteworthy-differences_banner.png
+  header: /assets/siteimages/noteworthy-differences_banner.png
+  og_image: /assets/siteimages/noteworthy-differences_banner.png
 ---
 
-### AI alignment for detecting meaningful changes
+## AI alignment for detecting meaningful changes
 
 <a href="https://huggingface.co/spaces/jedick/noteworthy-differences">
 <img src="/assets/siteimages/noteworthy-differences_workflow.png" alt="Noteworthy Differences workflow" style="width:40%; float:right; margin-left:20px;"/>
@@ -24,6 +32,6 @@ permalink: /noteworthy-differences/
 - **Confidence estimation** based on agreement levels among classifiers and judge
 - **Production-ready Gradio interface** for real-time noteworthy difference detection
 
-## Related blog post
+## 📝 Related blog post
 
 [Combating concept drift in LLM applications](/blog/combating-concept-drift-in-LLM-applications/)

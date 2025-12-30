@@ -1,8 +1,7 @@
 ---
 title: "Combating concept drift in LLM applications"
 date: 2025-12-26T08:31:38+08:00
-categories:
-  - Blog
+category: Blog
 tags:
   - Concept Drift
   - LLM

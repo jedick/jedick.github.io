@@ -2,16 +2,18 @@
 # Only the main Sass file needs front matter (the dashes are enough) 
 --- 
 
-/* How to change font size
-   https://github.com/mmistakes/minimal-mistakes/discussions/1219
-*/
-
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* https://github.com/mmistakes/minimal-mistakes/issues/1219#issuecomment-326809412 */
+/* 
+   Append custom CSS after the content of /assets/css/main.css
+   https://github.com/mmistakes/minimal-mistakes/discussions/1219
+   // <-- Sass comments
+*/
+
+/* Change font size */
 html {
     font-size: 12px; // originally 16px
     @include breakpoint($medium) {
@@ -29,3 +31,66 @@ html {
 
 /* Highlight active navigation link in masthead */
 .masthead__menu-item .active { font-weight: bold; }
+
+/* Make narrow post */
+.narrow {
+  .page {
+    @include breakpoint($large) {
+      float: inline-end;
+      width: calc(100% - #{$right-sidebar-width-narrow});
+      padding-inline-end: $right-sidebar-width-narrow;
+    }
+
+    @include breakpoint($x-large) {
+      width: calc(100% - #{$right-sidebar-width});
+      padding-inline-end: $right-sidebar-width;
+    }
+  }
+}
+
+/* Feature row on home page */
+.feature__wrapper {
+  /* Cursor added this but it makes cards too narrow */
+  /*
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  */
+  display: flex;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature__item {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature__item:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Links in feature row */
+.archive__item-title a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.archive__item-title a:hover {
+  color: #1a252f;
+  text-decoration: underline;
+}
+
+/* Excerpts in feature row */
+.archive__item-excerpt {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  flex-grow: 1;
+}

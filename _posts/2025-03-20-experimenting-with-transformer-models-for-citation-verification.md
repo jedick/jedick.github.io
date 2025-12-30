@@ -2,8 +2,7 @@
 title: "Experimenting with transformer models for citation verification"
 date: 2025-03-20T09:43:10+08:00
 last_modified_at: 2025-05-08T12:26:19+08:00
-categories:
-  - Blog
+category: Blog
 tags:
   - Deep Learning
   - NLP

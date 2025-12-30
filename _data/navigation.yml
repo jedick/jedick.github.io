@@ -1,25 +1,27 @@
 main:
-  - title: "Look"
+  - title: "Home"
     url: /
-  - title: "Read"
-    url: /posts/
+  - title: "Projects"
+    url: /categories/#projects
+  - title: "Blog"
+    url: /categories/#blog
   - title: "Connect"
     url: /connect/
 
 AI:
   - title: "AI Projects"
     children:
-    - title: "R-help chat"
-      url: /r-help-chat/
     - title: "Noteworthy Differences"
-      url: /noteworthy-differences/
+      url: /projects/noteworthy-differences/
+    - title: "R-help chat"
+      url: /projects/R-help-chat/
     - title: "AI4citations"
-      url: /ai4citations/
+      url: /projects/AI4citations/
 
 science:
   - title: "Science Projects"
     children:
     - title: "CHNOSZ"
-      url: /chnosz/
+      url: /projects/CHNOSZ/
     - title: "Research"
-      url: /research/
+      url: /projects/research/

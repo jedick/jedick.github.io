@@ -16,21 +16,22 @@ theme: minimal-mistakes-jekyll
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Learning with Machines
 
+title: Learning with Machines
 # Use > for folding and - for chomping
 description: >-
   Jeffrey Dick | Data Scientist | Portfolio and Blog
 search: true
 locale: en-US
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: CN
 
-# Outputting
+# Permalinks and navigation
 permalink: /:categories/:title/
+breadcrumbs: true
 # Amount of posts to show in Recent Posts page
 paginate: 5
 paginate_path: /posts/page:num/
-# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: CN
 
 # Directories to include and exclude from processing
 include:
@@ -46,29 +47,8 @@ head_scripts:
 author:
   name: Jeffrey Dick
   avatar: /assets/siteimages/bio-photo.jpg
-  # Leave the bio blank for space between the photo and links
-  bio: ""
-  links:
-    - label: Email
-      icon: fas fa-fw fa-envelope
-      url: mailto:j3ffdick@gmail.com
-    - label: LinkedIn
-      icon: fab fa-fw fa-linkedin
-      url: https://linkedin.com/in/jeffrey-m-dick/
-    - label: GitHub
-      icon: fab fa-fw fa-github
-      url: https://github.com/jedick
 
 # Customization
-footer:
-  links:
-    - label: LinkedIn
-      icon: fab fa-fw fa-linkedin
-      url: https://linkedin.com/in/jeffrey-m-dick/
-    - label: GitHub
-      icon: fab fa-fw fa-github
-      url: https://github.com/jedick
-
 defaults:
   # All pages and posts
   - values:
@@ -83,11 +63,10 @@ defaults:
   - scope:
       type: posts
     values:
+      show_date: true
       read_time: true
-      comments: true
       share: true
       related: true
-      show_date: true
 
 category_archive:
   type: liquid

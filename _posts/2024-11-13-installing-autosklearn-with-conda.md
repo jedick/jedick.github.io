@@ -1,11 +1,11 @@
 ---
 title: "Installing AutoSklearn with conda"
 date: 2024-11-13T15:41:07+08:00
-categories:
-  - Blog
+category: Blog
 tags:
   - Machine Learning
   - Python
+classes: narrow
 ---
 
 I really wanted to try out the examples of using AutoSklearn over at [Machine Learning Mastery](https://machinelearningmastery.com/automl-libraries-for-python/).

@@ -1,8 +1,7 @@
 ---
 title: "ML MiniLesson: Using pretrained layers"
 date: 2025-02-19T14:32:17+08:00
-categories:
-  - Blog
+category: Blog
 tags:
   - Machine Learning
   - Transfer Learning
@@ -11,6 +10,7 @@ header:
   teaser: /assets/images/2025-02-19-ML-minilesson-using-pretrained-layers/base_model.png
   header: /assets/images/2025-02-19-ML-minilesson-using-pretrained-layers/base_model.png
   og_image: /assets/images/2025-02-19-ML-minilesson-using-pretrained-layers/base_model.png
+classes: narrow
 ---
 
 Transfer learning take layers of an existing neural network previously trained on a (usually large) dataset.

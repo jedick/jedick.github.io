@@ -1,8 +1,7 @@
 ---
 title: "Deploying AI4citations: From research to production"
 date: 2025-06-05T06:54:48+08:00
-categories:
-  - Blog
+category: Blog
 tags:
   - Machine Learning
   - AI Apps
