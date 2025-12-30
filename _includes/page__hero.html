@@ -39,7 +39,16 @@
       {% if page.header.actions %}
         <p>
         {% for action in page.header.actions %}
-          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          {% if action.external %}
+          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large" target="_blank" rel="noopener noreferrer">
+            {{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+          {% else %}
+            <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">
+              {{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}
+            </a>
+          {% endif %}
         {% endfor %}
         </p>
       {% endif %}

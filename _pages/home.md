@@ -12,8 +12,10 @@ header:
       url: mailto:j3ffdick@gmail.com
     - label: LinkedIn
       url: https://linkedin.com/in/jeffrey-m-dick/
+      external: true
     - label: GitHub
       url: https://github.com/jedick
+      external: true
 excerpt: "*Building AI systems with proven performance through evaluations*"
 
 ai_projects:
