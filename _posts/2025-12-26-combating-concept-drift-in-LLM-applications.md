@@ -6,7 +6,6 @@ categories:
 tags:
   - Concept Drift
   - LLM
-classes: wide
 header:
   teaser: /assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/concept_drift.jpg
   header: /assets/images/2025-12-26-combating-concept-drift-in-LLM-applications/concept_drift.jpg

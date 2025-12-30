@@ -2,7 +2,6 @@
 title: AI4citations
 subtitle: Combating scientific misinformation with AI
 permalink: /ai4citations/
-classes: wide
 ---
 
 ### Finding inaccurate citations with AI

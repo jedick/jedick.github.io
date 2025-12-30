@@ -7,7 +7,6 @@ tags:
   - Machine Learning
   - AI Apps
   - User Feedback
-classes: wide
 header:
   teaser: /assets/images/2025-06-05-deploying-AI4citations-from-research-to-production/input_and_interface.png
   header: /assets/images/2025-06-05-deploying-AI4citations-from-research-to-production/input_and_interface.png

@@ -2,7 +2,6 @@
 title: Noteworthy Differences
 subtitle: AI alignment for detecting meaningful changes
 permalink: /noteworthy-differences/
-classes: wide
 ---
 
 ### AI alignment for detecting meaningful changes

@@ -9,7 +9,6 @@ tags:
   - Geochemistry
   - Data
   - R
-classes: wide
 ---
 
 How do ore deposits form?

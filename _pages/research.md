@@ -1,7 +1,6 @@
 ---
 title: Research
 permalink: /research/
-classes: wide
 ---
 
 *Computational approaches to understanding geosphere-biosphere coevolution through geochemical modeling and genomic data analysis.*
@@ -114,9 +113,11 @@ This approach accounts for all possible charge states and their equilibrium prop
 
 <img style="height:1em; vertical-align:middle; margin: 0px;" alt="Google Scholar" src="/assets/icons/googlescholar.png"/>
 [Google Scholar](https://scholar.google.com/citations?user=iLvwus8AAAAJ)  
-<img style="height:1em; vertical-align:middle; margin: 0px;" alt="Google Scholar" src="/assets/icons/semanticscholar.png"/>
+<img style="height:1em; vertical-align:middle; margin: 0px;" alt="Semantic Scholar" src="/assets/icons/semanticscholar.png"/>
 [Semantic Scholar](https://www.semanticscholar.org/author/Jeffrey-M.-Dick/145014320)  
-<img style="height:1em; vertical-align:middle; margin: 0px;" alt="Google Scholar" src="/assets/icons/researchgate.png"/>
+<img style="height:1em; vertical-align:middle; margin: 0px;" alt="ResearchGate" src="/assets/icons/researchgate.png"/>
 [ResearchGate](https://www.researchgate.net/profile/Jeffrey-Dick-3)  
-<img style="height:1em; vertical-align:middle; margin: 0px;" alt="Google Scholar" src="/assets/icons/orcid.png"/>
+<img style="height:1em; vertical-align:middle; margin: 0px;" alt="Web of Science" src="/assets/icons/wos.png"/>
+[Web of Science](https://www.webofscience.com/wos/author/record/K-1619-2013)  
+<img style="height:1em; vertical-align:middle; margin: 0px;" alt="ORCiD" src="/assets/icons/orcid.png"/>
 [ORCiD](https://orcid.org/0000-0002-0687-5890)

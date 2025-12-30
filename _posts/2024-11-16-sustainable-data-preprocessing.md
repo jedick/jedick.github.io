@@ -8,7 +8,6 @@ categories:
 tags:
   - Machine Learning
   - Data
-classes: wide
 ---
 
 Early in my modeling of the *Titanic* dataset (a kind of “Hello World” for machine learning), I was struck by the variety - or inconsistency - of data preprocessing methods.

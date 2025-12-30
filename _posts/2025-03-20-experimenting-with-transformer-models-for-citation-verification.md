@@ -8,7 +8,6 @@ tags:
   - Deep Learning
   - NLP
   - Claim Verification
-classes: wide
 header:
   teaser: /assets/images/2025-03-20-experimenting-with-transformer-models-for-citation-verification/accuracy_curves.png
   header: /assets/images/2025-03-20-experimenting-with-transformer-models-for-citation-verification/accuracy_curves.png

@@ -2,7 +2,6 @@
 title: R-help chat
 subtitle: Making knowledge accessible through conversational AI
 permalink: /r-help-chat/
-classes: wide
 ---
 
 ### Making knowledge accessible through conversational AI

@@ -8,7 +8,6 @@ categories:
 tags:
   - Feature Engineering
   - Genomics
-classes: wide
 ---
 
 I'm starting a machine learning project to use microbial communities as biosensors for redox potential.

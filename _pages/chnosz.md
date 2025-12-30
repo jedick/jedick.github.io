@@ -2,7 +2,6 @@
 title: CHNOSZ
 subtitle: Building scientific infrastructure that lasts
 permalink: /chnosz/
-classes: wide
 ---
 
 ### Building scientific infrastructure that lasts

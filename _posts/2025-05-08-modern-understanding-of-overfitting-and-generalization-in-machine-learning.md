@@ -7,7 +7,6 @@ tags:
   - Machine Learning
   - Overfitting
   - Bias-Variance Tradeoff
-classes: wide
 header:
   teaser: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double_descent.svg
   header: /assets/images/2025-05-08-modern-understanding-of-overfitting-and-generalization-in-machine-learning/double_descent.svg
