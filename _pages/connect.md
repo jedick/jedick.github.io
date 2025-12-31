@@ -1,6 +1,7 @@
 ---
 title: Let's connect
 permalink: /connect/
+nav_title: Connect
 author:
   name: Jeffrey Dick
   avatar: /assets/siteimages/bio-photo.jpg
