@@ -12,3 +12,8 @@ gem "jekyll", "~> 4.4.1"
 
 # For Minimal Mistakes theme
 gem "minimal-mistakes-jekyll"
+
+# Downgrade the sass-converter plugin to 2.x.x to avoid deprecation warnings
+# https://www.reddit.com/r/Jekyll/comments/zunif0/comment/j1mljcb/
+gem "jekyll-sass-converter", "~> 2.0"
+gem "bigdecimal"

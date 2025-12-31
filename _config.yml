@@ -68,3 +68,8 @@ defaults:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Silence some Sass deprecation warnings
+# https://github.com/ustclug/website/commit/ccbcb850e2907734b8cb16f3c1e63ef74cc7dc07
+sass:
+  quiet_deps: true

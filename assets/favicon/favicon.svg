@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg9"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3">
+    <!-- Shadow/glow for checkmark to stand out -->
+    <filter
+       id="checkmark-glow"
+       x="-0.21959282"
+       y="-0.3338789"
+       width="1.4391856"
+       height="1.667751">
+      <feGaussianBlur
+         stdDeviation="0.3"
+         result="coloredBlur"
+         id="feGaussianBlur1" />
+      <feMerge
+         id="feMerge2">
+        <feMergeNode
+           in="coloredBlur"
+           id="feMergeNode1" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode2" />
+      </feMerge>
+    </filter>
+    <!-- Gradient for checkmark depth -->
+    <linearGradient
+       id="checkmark-gradient"
+       x1="2.8755857"
+       y1="2.0303342"
+       x2="11.590014"
+       y2="10.744762"
+       gradientTransform="matrix(1.1406372,0,0,0.87670297,2.2946102,1.6364871)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#e74c3c;stop-opacity:1"
+         id="stop2" />
+      <stop
+         offset="100%"
+         style="stop-color:#c0392b;stop-opacity:1"
+         id="stop3" />
+    </linearGradient>
+  </defs>
+  <path
+     d="m 3.0758149,4.6595103 0.027591,8.7451907"
+     fill="none"
+     stroke="#2a5a9e"
+     stroke-width="1.8"
+     stroke-linecap="butt"
+     id="path3" />
+  <path
+     d="M 6.5582893,13.649073 13.486493,9.6490739"
+     fill="none"
+     stroke="#2a5a9e"
+     stroke-width="1.8"
+     stroke-linecap="butt"
+     id="path5" />
+  <path
+     d="M 6.5054265,12.417863 5.7685201,14.128821 7.625986,14.358729"
+     fill="none"
+     stroke="#2a5a9e"
+     stroke-width="2.14435"
+     stroke-linecap="butt"
+     stroke-linejoin="butt"
+     id="path6" />
+  <path
+     d="M 4.2063344,5.9840848 3.0611474,4.3769595 1.9611641,6.0214176"
+     fill="none"
+     stroke="#2a5a9e"
+     stroke-width="2.14435"
+     stroke-linecap="butt"
+     stroke-linejoin="butt"
+     id="path6-6" />
+  <path
+     d="M 11.198642,6.9935867 13.205536,6.9150816 12.278304,5.263819"
+     fill="none"
+     stroke="#2a5a9e"
+     stroke-width="2.14435"
+     stroke-linecap="butt"
+     stroke-linejoin="butt"
+     id="path6-6-6" />
+  <path
+     d="M 12.494371,6.5239078 12.318951,6.4265256 12.037347,6.2701968 4.8472565,2.2787168"
+     fill="none"
+     stroke="#2a5a9e"
+     stroke-width="1.8"
+     stroke-linecap="butt"
+     id="path7" />
+  <path
+     d="M 6.9263233,7.5567944 8.7946099,9.3364871 14.759002,4.1849186"
+     fill="none"
+     stroke="url(#checkmark-gradient)"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     filter="url(#checkmark-glow)"
+     id="path9"
+     style="stroke:url(#checkmark-gradient)"
+     transform="rotate(-24.036011,7.9959861,10.461253)" />
+</svg>

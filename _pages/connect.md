@@ -19,37 +19,44 @@ author:
 ---
 
 Hello!
-I'm a data scientist with deep academic research roots.
-My passion lies in creating AI that's reliable and adaptable—systems that learn from data and solve real problems.
+I'm a data scientist passionate about building dependable AI systems.
+As a PhD-trained researcher, I have 15+ years of experience shipping software used by 100+ research groups globally.
+With expertise spanning AI systems, data engineering, technical leadership, and research methodology,
+I know how to make AI tools valuable for your organization.
 
-*I'm currently open to new roles.*
-To get in touch, please send me an <a href="mailto:j3ffdick@gmail.com">email</a> or connect on <a href="https://www.linkedin.com/in/jeffrey-m-dick/">LinkedIn</a>.
+I love working with data, but my favorite part is building systems that are actually useful.
+That means paying attention at both ends—from clear understanding of stakeholder requirements to well-designed frontends.
+Improving user satisfaction is why I'm so excited about GenAI systems: they get better through evaluation sets and feedback loops.
 
-You can also visit my <a href="https://github.com/jedick">GitHub</a> profile to see my other open-source projects and contributions.
+*I'm currently open to new opportunities.*
+Reach out via <a href="mailto:j3ffdick@gmail.com">email</a> or <a href="https://www.linkedin.com/in/jeffrey-m-dick/">LinkedIn</a> to discuss how we can work together.
+
+You can also explore my work on <a href="https://github.com/jedick">GitHub</a>.
 
 ---
 
-## <i class="fa-solid fa-check"></i> Professional skills
+## <i class="fa-solid fa-check"></i> Building dependable AI systems
 
-**Research methodology:** Hypothesis formation, experimental design, and rigorous evaluation  
-**Technical communication:** Translating complex concepts for diverse stakeholders  
-**Project leadership:** Managing long-term projects from conception to community adoption  
-**Global collaboration:** Working with international teams across time zones and cultures  
-**Innovation under constraints:** Creating solutions with limited resources and high quality standards
+I don't just build—I prove.
+Every AI system I create includes comprehensive test suites and evaluation frameworks to ensure reliability under real-world conditions.
 
-## <i class="fa-solid fa-plus"></i> Technical skills
+My background maintaining research software means I understand the complete development lifecycle.
+I've solved tough problems cleaning and merging data sources, turning theoretical models into production code,
+and implementing tests that catch failures before users do.
+I'm now combining that evaluation-first mindset with hands-on expertise in PyTorch, LangGraph, fine-tuning, and RAG architectures.
 
-**AI & machine learning:** PyTorch • scikit-learn • Fine-tuning • RAG Systems • GenAI Applications  
-**Software engineering:** Python • SQL • R • Data Pipelines • Test Suites   
-**Development:** Git • Linux • Shell • Open Source Development • Frontends  
-**MLOps & production:** Docker • AWS • CI/CD • Monitoring • Model Deployment
+This unique blend covers both theory and practice.
+I can architect complex solutions and implement them end-to-end, always with an eye toward proving they work before deployment.
 
-## <i class="fa-solid fa-arrow-right"></i> What sets me apart
+---
 
-I don't just implement algorithms—I solve meaningful problems:
+## <i class="fa-solid fa-play"></i> Delivering value through the entire journey
 
-**Problem-first thinking:** Academic training taught me to ask the right questions before building solutions.  
-**Production-ready mindset:** 15+ years maintaining production software means I build for reliability, scalability, and long-term sustainability from day one.  
-**Community builder:** Successfully grew and maintained global research communities.  
-**Data storyteller:** Authored 20+ peer-reviewed papers requiring clear communication of complex technical concepts to diverse audiences.  
-**Continuous learner:** From R packages to PyTorch models to LangChain applications—I adapt to new technologies while maintaining deep expertise.
+It's not just about the code—it's about bridging technical and business worlds to solve actual problems.
+
+- For early-stage initiatives, I help you move from concept to production systems with evaluation frameworks that prove value from day one.
+- For enterprise deployments, I integrate complex data sources, design custom LLM workflows,
+and build feedback mechanisms that combat concept drift as requirements evolve.
+- For customer-facing solutions, I listen to stakeholders and prioritize user experience to ensure your AI systems deliver measurable adoption and impact.
+
+My approach is always the same: understand deeply, build deliberately, and prove rigorously.
