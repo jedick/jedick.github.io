@@ -73,3 +73,7 @@ tag_archive:
 # https://github.com/ustclug/website/commit/ccbcb850e2907734b8cb16f3c1e63ef74cc7dc07
 sass:
   quiet_deps: true
+
+# Plugins
+plugins:
+  - jekyll-redirect-from

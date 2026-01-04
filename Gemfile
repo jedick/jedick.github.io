@@ -17,3 +17,6 @@ gem "minimal-mistakes-jekyll"
 # https://www.reddit.com/r/Jekyll/comments/zunif0/comment/j1mljcb/
 gem "jekyll-sass-converter", "~> 2.0"
 gem "bigdecimal"
+
+# For redirects
+gem "jekyll-redirect-from"
