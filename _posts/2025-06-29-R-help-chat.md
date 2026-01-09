@@ -36,3 +36,7 @@ header:
 ## <i class="fa-brands fa-youtube"></i> YouTube video
 
 [R-help-chat walkthrough](https://youtu.be/mLQqW7zea-k)
+
+## 📝 Related blog post
+
+[Engineering challenges for a real RAG application](/blog/engineering-challenges-for-a-real-RAG-application/)
