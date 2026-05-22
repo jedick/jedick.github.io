@@ -8,8 +8,18 @@ main:
   - title: "Connect"
     url: /connect/
 
-AI:
-  - title: "AI Projects"
+research:
+  - title: "Research"
+    children:
+    - title: "BreCol"
+      url: /blog/BreCol-cancer-classification-benchmark-using-gut-microbiome-data/
+    - title: "CHNOSZ"
+      url: /projects/CHNOSZ/
+    - title: "More projects"
+      url: /projects/research/
+
+deployments:
+  - title: "Deployments"
     children:
     - title: "Noteworthy Differences"
       url: /projects/noteworthy-differences/
@@ -18,10 +28,3 @@ AI:
     - title: "AI4citations"
       url: /projects/AI4citations/
 
-science:
-  - title: "Science Projects"
-    children:
-    - title: "CHNOSZ"
-      url: /projects/CHNOSZ/
-    - title: "Research"
-      url: /projects/research/

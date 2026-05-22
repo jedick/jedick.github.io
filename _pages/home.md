@@ -18,7 +18,7 @@ header:
       external: true
 excerpt: "*Building AI systems with proven performance through evaluations*"
 
-ai_projects:
+ai_deployments:
   - image_path: /assets/siteimages/R-help-chat_banner.png
     alt: R-help chatbot banner
     title: Making knowledge accessible through conversational AI
@@ -36,15 +36,20 @@ ai_projects:
     title: Fighting inaccurate citations with AI
     excerpt: Taking citation verification analysis from research to production through model optimization, deployment, and feedback collection.
     url: /projects/AI4citations/
-science_projects:
+research_projects:
+  - image_path: /assets/siteimages/BreCol_table.png
+    alt: BreCol table
+    title: BreCol benchmark
+    excerpt: On the importance of holdout studies for assessing cancer classification models
+    url: /blog/BreCol-cancer-classification-benchmark-using-gut-microbiome-data/
   - image_path: /assets/siteimages/CHNOSZ_diagram.png
     alt: CHNOSZ diagram
-    title: CHNOSZ
+    title: CHNOSZ package
     excerpt: Enabling scientific discovery through thermodynamic calculations and diagrams
     url: /projects/CHNOSZ/
   - image_path: /assets/siteimages/oxidation_and_hydration.png
     alt: Evolutionary oxidation and hydration trends for proteins
-    title: Research
+    title: More projects
     excerpt: Understanding geosphere-biosphere coevolution through geochemistry and genomic data analysis
     url: /projects/research/
 featured_posts:
@@ -79,20 +84,19 @@ featured_posts:
 
 <h2>Where science meets AI innovation</h2>
 
+My unique perspective combines rigorous scientific methodology with modern ML engineering practices.
 I've spent over a decade turning complex research questions into elegant software solutions.
-I'm always on the lookout for opportunities to pursue my passion for building AI systems that are **dependable, adaptable, and impactful**.
-
-My unique perspective combines rigorous scientific methodology with modern ML engineering practices—creating solutions that researchers and industry professionals can trust with their most important data.
+I'm always on the lookout for opportunities to pursue my passion for building AI and data analysis software that is dependable, adaptable, and impactful.
 
 ---
 
-## 🖥️ AI projects
+## 🔬 Research projects
 
-{% include feature_row id="ai_projects" %}
+{% include feature_row id="research_projects" %}
 
-## 🔬 Science projects
+## 🖥️ AI deployments
 
-{% include feature_row id="science_projects" %}
+{% include feature_row id="ai_deployments" %}
 
 ## 📝 Featured blog posts
 

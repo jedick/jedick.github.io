@@ -8,6 +8,10 @@ tags:
   - LangGraph
   - ChromaDB
   - BM25
+header:
+  teaser: /assets/siteimages/engineering-challenges_banner.png
+  header: /assets/siteimages/engineering-challenges_banner.png
+  og_image: /assets/siteimages/engineering-challenges_banner.png
 excerpt: "A case study with R-help-chat"
 ---
 

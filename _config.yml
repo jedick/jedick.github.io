@@ -54,8 +54,8 @@ defaults:
       author_profile: true
       sidebar:
         nav:
-          - AI
-          - science
+          - research
+          - deployments
   # Posts
   - scope:
       type: posts
