@@ -142,7 +142,6 @@ The URL is explicitly printed here so you can see the **cloud** path to sparse s
 
 **Results**:
 - A *local* implementation of hybrid search, with persistence to on-disk dbs - no cloud or API needed!
-- This was the **engineering key** to a *scalable retrieval workflow*, leading to an actually useful app instead of a prototype
 
 ---
 
