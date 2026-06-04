@@ -1,7 +1,7 @@
 ---
 title: "BreCol: Cancer classification benchmark using gut microbiome data"
 date: 2026-05-22
-last_modified_at: 2026-06-03
+last_modified_at: 2026-06-04
 layout: single
 classes: wide
 category: Blog
@@ -20,20 +20,16 @@ excerpt: "Microbiome-based cancer prediction benchmarks sometimes overestimate r
 
 ## Abstract
 
-Microbiome-based cancer prediction benchmarks sometimes overestimate real-world performance because test samples are drawn from the same studies used for training,
-allowing models to exploit study-specific technical artifacts rather than biological signal.
-We present BreCol, a temporally structured multi-study compilation of 2,040 16S rRNA sequencing runs covering
-breast cancer, colorectal cancer, and healthy cohorts across 26 studies spanning more than a decade.
-By reserving the six most recent studies per cancer type as an external holdout,
-we ensure that holdout evaluation reflects deployment on data from new laboratories, clinical protocols, and geographic regions.
-We evaluate four classifier pipelines: classical (tetramer counts aggregated to run-level frequencies or
-unsupervised clustering with cluster abundance profiles (UC/CAP)) and deep learning (HyenaDNA and SetBERT).
-Among classical methods, UC/CAP achieves the strongest holdout performance (AUC 0.60 for cancer diagnosis with SVM, 0.83 for cancer type with KNN).
-The differential between test (in-study) and holdout AUC is 0.15 points for both tasks
-with the best classical classifier, confirming that conventional evaluation inflates apparent model skill.
-Both deep-learning pipelines underperform the best classical methods on holdout data;
-HyenaDNA (holdout AUC 0.57 for cancer diagnosis, 0.79 for cancer type) edges out SetBERT on generalization.
-Our benchmark and associated code are publicly available to support reproducible, credible evaluation of microbiome-based cancer classifiers.
+We introduce BreCol, a multi-study 16S rRNA benchmark of 2,040 sequencing runs across 26 studies spanning breast cancer, colorectal cancer, and healthy cohorts.
+The benchmark supports two tasks: cancer diagnosis and cancer type prediction.
+Holdout evaluation uses the six most recent studies per cancer type, reflecting temporal separation from training data.
+Features are derived from tetramer frequencies using unsupervised clustering, preserving within-run compositional signal without reference-based taxonomy.
+Classical models reach holdout AUCs of 0.60 for cancer diagnosis and 0.83 for cancer type prediction.
+Colorectal cancer is consistently easier to detect than breast cancer when models are trained on both cancer types simultaneously.
+We also evaluate two deep learning pipelines: HyenaDNA, a long-range sequence model that pools backbone hidden states across token positions for classification,
+and SetBERT, a transformer that produces contextualized embeddings over sets of reads.
+Both deep learning models underperform the best classical methods on holdout data, though tuning training set size and the decoder head yields modest gains.
+BreCol and associated code are publicly available.
 
 ## Introduction
 
@@ -771,9 +767,9 @@ We explored six combinations of the three UC/CAP hyperparameters defined by *n*<
 <tbody>
 <tr>
 <td>1</td>
-<td>500</td>
+<td>350</td>
 <td>1000</td>
-<td>500</td>
+<td>350</td>
 <td>4</td>
 <td>1000</td>
 <td>1000</td>
@@ -926,10 +922,17 @@ while for cancer type, 2k is best on holdout and longer contexts markedly reduce
 The divergence between test and holdout trends for cancer type suggests that larger contexts allow the model to pick up study-specific signals.
 
 <figure>
-<img src="/assets/images/2026-05-22-BreCol-cancer-classification-benchmark-using-gut-microbiome-data/figure3_hyenadna.svg" alt="Effect of context length per set on HyenaDNA AUC for cancer diagnosis (left) and cancer type (right), using the linear head with three random seeds." />
-<figcaption>Figure 3: Effect of context length per set on HyenaDNA AUC for cancer diagnosis (left) and cancer type (right),
+<img src="/assets/images/2026-05-22-BreCol-cancer-classification-benchmark-using-gut-microbiome-data/figure3_hyenadna.svg" alt="Effect of context length per set on HyenaDNA predictions for cancer diagnosis (left) and cancer type (right), using the linear head with three random seeds." />
+<figcaption>Figure 3: Effect of context length per set on HyenaDNA predictions for cancer diagnosis (left) and cancer type (right),
 using the linear head with three random seeds.</figcaption>
 </figure>
+
+For the most direct comparison between HyenaDNA and the UC/CAP pipeline, look at the results for feature set 1 in Figure 2 and 16k set length in Figure 3.
+Feature set 1 uses 350 sequences per sample for clustering (Table 5).
+At 16k positions per set and 5 sets per run, the number of sequences per sample seen by HyenaDNA is 323 ± 112 (min 50 for ref<sup>[23](#ref-YTK+26)</sup>, max 540 for ref<sup>[14](#ref-BVW+21)</sup>).
+For cancer diagnosis, HyenaDNA loses to both SVM and KNN on test AUC, but shows competetive holdout AUC near 0.58, slightly higher than either SVM or KNN.
+For cancer type, HyenaDNA shows respectable test AUC (\>0.9) and but struggles on holdout (\<0.6), considerably lower than either SVM or KNN.
+Interestingly, HyenaDNA with 2k set size beats other sizes by a wide margin for cancer type, with the MLP head achieving a holdout AUC of 0.79.
 
 ### Classification with SetBERT
 
@@ -982,17 +985,16 @@ seeds.</caption>
 
 ## Discussion
 
-Results are consistently lower on holdout splits than on in-study test splits,
-confirming that test performance within the same studies used for training gives optimistic estimates of real-world model skill.
+Results are consistently lower on holdout splits than on in-study test splits.
 For run-level tetramer frequencies, the stark contrast betwen test and holdout performance (AUC \>0.9 for test vs 0.71 or less for holdout)
 indicates that classifiers overfit to study-level signals when trained on single-study cancer-type data.
 Fitting to cluster abundance profiles (UC/CAP) preserves within-run compositional information
 and improves holdout performance on cancer type but not on the cancer diagnosis task.
 
 We list our per-study AUC for cancer diagnosis and comparisons with colorectal cancer where available (Table 9).
-On two of the three development studies with a published comparison (<sup>[24](#ref-ZTV+14)</sup> and<sup>[27](#ref-YDS+21)</sup>), our per-study test AUC is very high (0.98–1.00),
-but it drops to 0.73 on a third dataset where the literature value is 0.85<sup>[25](#ref-BRRS16)</sup>.
-For holdout studies with published AUC values (<sup>[31](#ref-BWY+23)</sup>,<sup>[33](#ref-CAB+24)</sup>,<sup>[36](#ref-GYX+25)</sup>), our AUC (0.66–0.68) is consistently lower than the literature (0.86–0.88).
+On two of the three development studies with a published comparison (refs<sup>[24](#ref-ZTV+14),[27](#ref-YDS+21)</sup>), our test AUC is very high (0.98–1.00),
+but it drops to 0.73 on a third dataset where the literature value is 0.85 (ref<sup>[25](#ref-BRRS16)</sup>).
+For holdout studies with published AUC values (refs<sup>[31](#ref-BWY+23),[33](#ref-CAB+24),[36](#ref-GYX+25)</sup>), our AUC (0.66–0.68) is consistently lower than the literature (0.86–0.88).
 The literature numbers come from within-study cross-validation or test splits rather than independent cohorts
 and are therefore not directly comparable to true holdout performance.
 
@@ -1183,7 +1185,7 @@ We did not find direct AUC comparisons in the literature for the breast cancer d
 Daga and Oudah<sup>[37](#ref-DO24)</sup> reported a peak within-cohort AUC of 0.83 for breast cancer with Bernoulli Naïve Bayes.
 Our in-study test AUCs for breast cancer diagnosis are all lower than this except for one dataset.
 Wang et al.<sup>[38](#ref-WYH+22)</sup> trained random forest classifiers on fecal microbiome data from breast cancer patients and healthy controls, achieving cross-cohort
-AUCs of 0.65–0.66, which sits toward the upper end of our per-study holdout values for breast cancer (0.47–0.69 Table 9).
+AUCs of 0.65–0.66, which sits toward the upper end of our holdout values for breast cancer (0.47–0.69; Table 9).
 
 Interestingly, the test AUCs for breast cancer are generally lower than those for colorectal cancer datasets (Table 9).
 This pattern extends to the holdout studies - for breast cancer only 2 out of 6 holdout studies have AUC \> 0.6,
@@ -1206,11 +1208,6 @@ but HyenaDNA generalizes better to holdout studies (best: 0.79 MLP versus 0.70 c
 HyenaDNA’s stronger holdout AUC on cancer type is notable given that it was pre-trained on the human genome rather than on microbial sequences;
 the domain mismatch does not appear to be the limiting factor.
 
-At 16k positions per set and 5 sets per run, the number of sequences per sample seen by HyenaDNA is 323 ± 112 (min 50 for ref<sup>[23](#ref-YTK+26)</sup>, max 540 for ref<sup>[14](#ref-BVW+21)</sup>).
-This is comparable to the 350 sequences per run used for SetBERT
-Although this is a fraction of what the tetramer and UC/CAP methods use (up to 5,000),
-our set-size ablations do not support set size as the limiting factor (Figure 3).
-
 The aggregated representation in HyenaDNA before classification may contribute to the lower AUC relative to classical methods.
 SetBERT is an interesting alternative as it uses set attention blocks so embeddings are affected by sample context (i.e. other sequences).
 In our experiments, SetBERT performs better than HyenaDNA on in-study test splits but not on holdout datasets.
@@ -1223,8 +1220,6 @@ Also, SetBERT was pre-trained on V3-V4 regions on 16S rRNA, while some of our ho
 Table 9 reveals substantial variation in per-study AUC for cancer diagnosis.
 Most values exceed 0.5, meaning the model makes better-than-random predictions for the majority of datasets.
 Where AUC falls below 0.5, the model is systematically wrong.
-This range of difficulty is visible only because the benchmark aggregates many studies;
-a single-study or small-scale evaluation would likely miss it.
 Targeting the most challenging studies for model improvement, for example, by up-weighting hard examples during training,
 could be a productive direction for future work.
 
@@ -1232,10 +1227,6 @@ Several avenues may improve holdout performance.
 UC/CAP parameters (*K*, *n*<sub>CAP</sub>) could be tuned jointly with the classifier rather than selected independently.
 Soft cluster assignments (Gaussian mixture or fuzzy *k*-means) might better capture the continuous composition of microbial communities.
 For both deep-learning models, additional pre-training on 16S rRNA sequences would better align their representations with the target domain.
-
-More broadly, our results reinforce a general lesson for machine learning in genomics and microbiome research:
-metrics from within-study test splits can be misleading by a wide margin.
-Evaluation against temporally and geographically diverse holdout cohorts should be a standard requirement<sup>[6](#ref-WSNP22)</sup>.
 
 ### Limitations
 
@@ -1249,10 +1240,9 @@ but is feasible only where participant sex metadata are available.
 Second, study-level confounders, including primer choice, sequencing platform, and geographic region,
 are unavoidable in a multi-study benchmark and limit how cleanly the signal can be attributed to cancer biology.
 
-Third, both deep-learning models were fine-tuned with a small number of sequences per run (about 323–350) relative to the full sequencing depth of many runs.
-Strategies that use more sequences, such as multi-instance learning or set-level ensembling with larger sets, could better exploit available data.
-This idea is conditioned by our finding that increasing set length above 2k positions has a small positive (cancer diagnosis)
-or large negative (cancer type) effect on holdout classification with HyenaDNA (Figure 3).
+Third, both deep-learning models were fine-tuned with a small number of sequences per run relative to the full sequencing depth of many runs.
+Strategies that use more sequences could better exploit available data.
+However, our experiments do not support set size between 1k and 16k as the limiting factor for HyenaDNA (Figure 3).
 
 ## Acknowledgments
 
@@ -1331,7 +1321,7 @@ The repository also holds the manuscript revision prompts and manuscript files w
 
 <div id="ref-LGA+25" class="csl-entry" markdown="1">
 
-<span class="csl-left-margin">10. </span><span class="csl-right-inline">Ludwig, I., David W *et al.* [SetBERT: The deep learning platform for contextualized embeddings and explainable predictions from high-throughput sequencing](https://doi.org/10.1093/bioinformatics/btaf370). *Bioinformatics* **41**, btaf370 (2025).</span>
+<span class="csl-left-margin">10. </span><span class="csl-right-inline">Ludwig, D. W., II *et al.* [SetBERT: The deep learning platform for contextualized embeddings and explainable predictions from high-throughput sequencing](https://doi.org/10.1093/bioinformatics/btaf370). *Bioinformatics* **41**, btaf370 (2025).</span>
 
 </div>
 
